@@ -1,16 +1,42 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Home"
-  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Made with ❤️ and Quarto"
+  title: "[Tên của bạn]"
+  favicon: img/avatar.jpg
+
   navbar:
+    background: light
+    foreground: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+      - href: publications.qmd
+        text: Publications
+      - href: consulting.qmd
+        text: Consulting
+      - href: about.qmd
+        text: About Me
     right:
-      - text: Home
-        href: index.qmd
-      
+      - icon: github
+        href: https://github.com/username
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/username
+        aria-label: Twitter
+      - icon: linkedin
+        href: https://linkedin.com/in/username
+        aria-label: LinkedIn
+
+  page-footer:
+    center: "© 2025 [Tên của bạn] · Built with [Quarto](https://quarto.org)"
+
 format:
   html:
-    theme: [cosmo, styles.scss]
-
+    theme:
+      - cosmo
+      - styles.css
+    toc: false
