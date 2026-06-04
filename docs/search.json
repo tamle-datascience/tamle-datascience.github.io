@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m Tam Le 👋",
-    "section": "",
-    "text": "Data Scientist · Researcher · Educator\n\n\nResearcher and lecturer specializing in applied statistics and consumer research in the food industry.\nAbout me Publications Consulting\nLatest content"
-  },
-  {
-    "objectID": "index.html#featured-posts",
-    "href": "index.html#featured-posts",
-    "title": "Hi, I’m Tam Le 👋",
-    "section": "Featured Posts",
-    "text": "Featured Posts\n\n\n\n📊 R\n\nTidymodels in R\nAn end-to-end guide to machine learning the tidyverse way.\nRead more →\n\n\n\n\n\n🐍 Python\n\nPython for R Users\nComparing tidyverse syntax with pandas and polars.\nRead more →\n\n\n\n\n\n🍎 Data Science\n\nData Science in Food\nApplying ML to food quality control.\nRead more →\n\n\n\n\n\nResearch"
-  },
-  {
-    "objectID": "index.html#featured-publications",
-    "href": "index.html#featured-publications",
-    "title": "Hi, I’m Tam Le 👋",
-    "section": "Featured Publications",
-    "text": "Featured Publications\n\n📚 [Your most notable book / paper]\nA short description of the publication — its main content, scientific contribution, and where it was published. Replace this with your real information.\nSee all publications →"
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -77,39 +56,32 @@
     "text": "Git helps researchers manage code versions and collaborate effectively.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
-    "objectID": "consulting.html",
-    "href": "consulting.html",
-    "title": "Consulting & Training",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Tam Le 👋",
     "section": "",
-    "text": "Flexible formats: All courses can be adjusted in duration, content, and language (Vietnamese / English) to fit your needs. Contact: email@example.com"
+    "text": "Data Scientist · Researcher · Educator\n\n\nResearcher and lecturer specializing in applied statistics and consumer research in the food industry.\nAbout me Publications Consulting\nLatest content"
   },
   {
-    "objectID": "consulting.html#statistics-using-r",
-    "href": "consulting.html#statistics-using-r",
-    "title": "Consulting & Training",
-    "section": "📊 Statistics using R",
-    "text": "📊 Statistics using R\n\nR University Business · ⏱ 16–32 hours · 📈 Beginner → Advanced\nA foundational course on applied statistics and data analysis with R — from importing and cleaning data, descriptive statistics, and hypothesis testing to visualization and reporting.\nKey topics: Introduction to R & RStudio · tidyverse · Descriptive statistics · t-test, ANOVA · Linear & logistic regression · ggplot2 · Reporting with Quarto · Introduction to tidymodels.\nRequest this course"
+    "objectID": "index.html#featured-posts",
+    "href": "index.html#featured-posts",
+    "title": "Hi, I’m Tam Le 👋",
+    "section": "Featured Posts",
+    "text": "Featured Posts\n\n\n\n📊 R\n\nTidymodels in R\nAn end-to-end guide to machine learning the tidyverse way.\nRead more →\n\n\n\n\n\n🐍 Python\n\nPython for R Users\nComparing tidyverse syntax with pandas and polars.\nRead more →\n\n\n\n\n\n🍎 Data Science\n\nData Science in Food\nApplying ML to food quality control.\nRead more →\n\n\n\n\n\nResearch"
   },
   {
-    "objectID": "consulting.html#analyzing-sensory-and-consumer-data",
-    "href": "consulting.html#analyzing-sensory-and-consumer-data",
-    "title": "Consulting & Training",
-    "section": "🔬 Analyzing Sensory and Consumer Data",
-    "text": "🔬 Analyzing Sensory and Consumer Data\n\nUniversity Business · ⏱ 16–24 hours · 📈 Intermediate → Advanced\nAn in-depth course on analyzing sensory and consumer data — from descriptive analysis and preference mapping to consumer cluster analysis with R.\nKey topics: Sensory experiment design · QDA · Sensory ANOVA · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.\nRequest this course"
+    "objectID": "index.html#featured-publications",
+    "href": "index.html#featured-publications",
+    "title": "Hi, I’m Tam Le 👋",
+    "section": "Featured Publications",
+    "text": "Featured Publications\n\n📚 [Your most notable book / paper]\nA short description of the publication — its main content, scientific contribution, and where it was published. Replace this with your real information.\nSee all publications →"
   },
   {
-    "objectID": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
-    "href": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
-    "title": "Consulting & Training",
-    "section": "🔍 Qualitative and Quantitative Methods in Consumer Science",
-    "text": "🔍 Qualitative and Quantitative Methods in Consumer Science\n\nUniversity · ⏱ 24–45 hours · 📈 Beginner → Advanced\nA research-methodology course combining qualitative and quantitative approaches. Suitable for undergraduates, master’s students, and PhD candidates.\nKey topics: Research philosophy · In-depth interviews & focus groups · Qualitative content analysis · Questionnaire design · Likert scales · SEM · Mixed methods · Research ethics.\nRequest this course"
-  },
-  {
-    "objectID": "consulting.html#application-of-data-science-in-the-food-industry",
-    "href": "consulting.html#application-of-data-science-in-the-food-industry",
-    "title": "Consulting & Training",
-    "section": "🍎 Application of Data Science in the Food Industry",
-    "text": "🍎 Application of Data Science in the Food Industry\n\nBusiness University · ⏱ 8–16 hours · 📈 Beginner → Intermediate\nA practical course on applying data science in the food industry — quality control, consumer behavior analysis, and supply-chain forecasting.\nKey topics: Overview of data science in food · ML in quality control · Consumer behavior analysis · Supply-chain forecasting · Text mining · Automated dashboards · Real-world case studies · R & Python.\nRequest this course\n\n\n\n📨 Need a custom training course?\nI design programs tailored to your organization’s specific needs — in content, duration, and audience.\nSend a request"
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog Archive",
+    "section": "",
+    "text": "Tidymodels: Machine Learning the Tidyverse Way\n\n\n\n\n\n\n\nR\n\n\nMachine Learning\n\n\n\n\nA comprehensive guide to tidymodels — from preprocessing with recipes and model building with parsnip to evaluation with yardstick.\n\n\n\n\n\n\nMar 15, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nLaTeX from A to Z: Writing Professional Academic Reports\n\n\n\n\n\n\n\nLaTeX\n\n\n\n\nA hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX.\n\n\n\n\n\n\nFeb 2, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nGit for Researchers: Managing Data Analysis Projects\n\n\n\n\n\n\n\nGit\n\n\n\n\nAn introduction to Git and GitHub for R/Python projects — essential commands and team workflows.\n\n\n\n\n\n\nJan 18, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nPython for R Users: Key Differences to Know\n\n\n\n\n\n\n\nPython\n\n\n\n\nA direct comparison of tidyverse syntax with pandas and polars — get up to speed in Python building on your R background.\n\n\n\n\n\n\nDec 5, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\nData Science in the Food Industry: Practical Applications\n\n\n\n\n\n\n\nData Science\n\n\n\n\nHow data science is transforming the food industry — from quality control to consumer behavior analysis.\n\n\n\n\n\n\nNov 10, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -154,11 +126,39 @@
     "text": "🛠 Skills & Tools\nR / tidyverse Python LaTeX Git / GitHub ggplot2 tidymodels Quarto Machine Learning SensoMineR SEM"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog Archive",
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Consulting & Training",
     "section": "",
-    "text": "Tidymodels: Machine Learning the Tidyverse Way\n\n\n\n\n\n\n\nR\n\n\nMachine Learning\n\n\n\n\nA comprehensive guide to tidymodels — from preprocessing with recipes and model building with parsnip to evaluation with yardstick.\n\n\n\n\n\n\nMar 15, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nLaTeX from A to Z: Writing Professional Academic Reports\n\n\n\n\n\n\n\nLaTeX\n\n\n\n\nA hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX.\n\n\n\n\n\n\nFeb 2, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nGit for Researchers: Managing Data Analysis Projects\n\n\n\n\n\n\n\nGit\n\n\n\n\nAn introduction to Git and GitHub for R/Python projects — essential commands and team workflows.\n\n\n\n\n\n\nJan 18, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nPython for R Users: Key Differences to Know\n\n\n\n\n\n\n\nPython\n\n\n\n\nA direct comparison of tidyverse syntax with pandas and polars — get up to speed in Python building on your R background.\n\n\n\n\n\n\nDec 5, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\nData Science in the Food Industry: Practical Applications\n\n\n\n\n\n\n\nData Science\n\n\n\n\nHow data science is transforming the food industry — from quality control to consumer behavior analysis.\n\n\n\n\n\n\nNov 10, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Flexible formats: All courses can be adjusted in duration, content, and language (Vietnamese / English) to fit your needs. Contact: email@example.com"
+  },
+  {
+    "objectID": "consulting.html#statistics-using-r",
+    "href": "consulting.html#statistics-using-r",
+    "title": "Consulting & Training",
+    "section": "📊 Statistics using R",
+    "text": "📊 Statistics using R\n\nR University Business · ⏱ 16–32 hours · 📈 Beginner → Advanced\nA foundational course on applied statistics and data analysis with R — from importing and cleaning data, descriptive statistics, and hypothesis testing to visualization and reporting.\nKey topics: Introduction to R & RStudio · tidyverse · Descriptive statistics · t-test, ANOVA · Linear & logistic regression · ggplot2 · Reporting with Quarto · Introduction to tidymodels.\nRequest this course"
+  },
+  {
+    "objectID": "consulting.html#analyzing-sensory-and-consumer-data",
+    "href": "consulting.html#analyzing-sensory-and-consumer-data",
+    "title": "Consulting & Training",
+    "section": "🔬 Analyzing Sensory and Consumer Data",
+    "text": "🔬 Analyzing Sensory and Consumer Data\n\nUniversity Business · ⏱ 16–24 hours · 📈 Intermediate → Advanced\nAn in-depth course on analyzing sensory and consumer data — from descriptive analysis and preference mapping to consumer cluster analysis with R.\nKey topics: Sensory experiment design · QDA · Sensory ANOVA · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.\nRequest this course"
+  },
+  {
+    "objectID": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
+    "href": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
+    "title": "Consulting & Training",
+    "section": "🔍 Qualitative and Quantitative Methods in Consumer Science",
+    "text": "🔍 Qualitative and Quantitative Methods in Consumer Science\n\nUniversity · ⏱ 24–45 hours · 📈 Beginner → Advanced\nA research-methodology course combining qualitative and quantitative approaches. Suitable for undergraduates, master’s students, and PhD candidates.\nKey topics: Research philosophy · In-depth interviews & focus groups · Qualitative content analysis · Questionnaire design · Likert scales · SEM · Mixed methods · Research ethics.\nRequest this course"
+  },
+  {
+    "objectID": "consulting.html#application-of-data-science-in-the-food-industry",
+    "href": "consulting.html#application-of-data-science-in-the-food-industry",
+    "title": "Consulting & Training",
+    "section": "🍎 Application of Data Science in the Food Industry",
+    "text": "🍎 Application of Data Science in the Food Industry\n\nBusiness University · ⏱ 8–16 hours · 📈 Beginner → Intermediate\nA practical course on applying data science in the food industry — quality control, consumer behavior analysis, and supply-chain forecasting.\nKey topics: Overview of data science in food · ML in quality control · Consumer behavior analysis · Supply-chain forecasting · Text mining · Automated dashboards · Real-world case studies · R & Python.\nRequest this course\n\n\n\n📨 Need a custom training course?\nI design programs tailored to your organization’s specific needs — in content, duration, and audience.\nSend a request"
   },
   {
     "objectID": "posts/data-science-food/index.html",

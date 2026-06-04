@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tamle-datascience.github.io/index.html</loc>
-    <lastmod>2026-06-04T07:56:50.684Z</lastmod>
-  </url>
-  <url>
     <loc>https://tamle-datascience.github.io/publications.html</loc>
-    <lastmod>2026-06-04T07:57:08.158Z</lastmod>
+    <lastmod>2026-06-04T08:01:08.087Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/posts/python/index.html</loc>
-    <lastmod>2026-06-04T07:52:47.272Z</lastmod>
+    <lastmod>2026-06-04T08:01:07.524Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/posts/git/index.html</loc>
-    <lastmod>2026-06-04T07:52:46.744Z</lastmod>
+    <lastmod>2026-06-04T08:01:07.015Z</lastmod>
   </url>
   <url>
-    <loc>https://tamle-datascience.github.io/consulting.html</loc>
-    <lastmod>2026-06-04T07:57:10.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tamle-datascience.github.io/about.html</loc>
-    <lastmod>2026-06-04T07:52:45.376Z</lastmod>
+    <loc>https://tamle-datascience.github.io/index.html</loc>
+    <lastmod>2026-06-04T08:01:06.511Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/blog.html</loc>
-    <lastmod>2026-06-04T07:56:58.313Z</lastmod>
+    <lastmod>2026-06-04T08:01:05.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tamle-datascience.github.io/about.html</loc>
+    <lastmod>2026-06-04T08:01:05.427Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tamle-datascience.github.io/consulting.html</loc>
+    <lastmod>2026-06-04T08:01:06.223Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/posts/data-science-food/index.html</loc>
-    <lastmod>2026-06-04T07:52:46.467Z</lastmod>
+    <lastmod>2026-06-04T08:01:06.764Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/posts/latex/index.html</loc>
-    <lastmod>2026-06-04T07:52:47.015Z</lastmod>
+    <lastmod>2026-06-04T08:01:07.270Z</lastmod>
   </url>
   <url>
     <loc>https://tamle-datascience.github.io/posts/tidymodels/index.html</loc>
-    <lastmod>2026-06-04T07:52:47.537Z</lastmod>
+    <lastmod>2026-06-04T08:01:07.806Z</lastmod>
   </url>
 </urlset>
