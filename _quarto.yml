@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "[Tên của bạn]"
+  title: "Tam LE"
   favicon: img/avatar.jpg
-  # Personal website của tamle-datascience
-  # Repo phải đặt tên: tamle-datascience.github.io
+  # Personal website of tamle-datascience
+  # Repo must be named: tamle-datascience.github.io
   site-url: https://tamle-datascience.github.io
   navbar:
     background: light
@@ -24,6 +24,9 @@ website:
       - href: about.qmd
         text: About Me
     right:
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS feed
       - icon: github
         href: https://github.com/tamle-datascience
         aria-label: GitHub
@@ -34,7 +37,7 @@ website:
         href: https://linkedin.com/in/username
         aria-label: LinkedIn
   page-footer:
-    center: "© 2025 [Tên của bạn] · Built with [Quarto](https://quarto.org)"
+    center: "© 2026 Tâm Minh Lê · Built with [Quarto](https://quarto.org)"
     background: light
 
 format:

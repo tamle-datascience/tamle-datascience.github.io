@@ -2,211 +2,211 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Xin chào, tôi là [Tên của bạn] 👋",
+    "title": "Hi, I’m Tam Le 👋",
     "section": "",
-    "text": "Data Scientist · Researcher · Educator\n\n\nNhà nghiên cứu và giảng viên chuyên về thống kê ứng dụng, khoa học dữ liệu và nghiên cứu người tiêu dùng trong ngành thực phẩm.\nVề tôi Publications Consulting\nNội dung mới nhất"
+    "text": "Data Scientist · Researcher · Educator\n\n\nResearcher and lecturer specializing in applied statistics and consumer research in the food industry.\nAbout me Publications Consulting\nLatest content"
   },
   {
-    "objectID": "index.html#bài-viết-nổi-bật",
-    "href": "index.html#bài-viết-nổi-bật",
-    "title": "Xin chào, tôi là [Tên của bạn] 👋",
-    "section": "Bài viết nổi bật",
-    "text": "Bài viết nổi bật\n\n\n\n📊 R\n\nTidymodels trong R\nHướng dẫn machine learning theo phong cách tidyverse từ A đến Z.\nĐọc tiếp →\n\n\n\n\n\n🐍 Python\n\nPython cho người dùng R\nSo sánh cú pháp tidyverse với pandas và polars.\nĐọc tiếp →\n\n\n\n\n\n🍎 Data Science\n\nData Science thực phẩm\nỨng dụng ML vào kiểm soát chất lượng thực phẩm.\nĐọc tiếp →\n\n\n\n\n\nResearch"
+    "objectID": "index.html#featured-posts",
+    "href": "index.html#featured-posts",
+    "title": "Hi, I’m Tam Le 👋",
+    "section": "Featured Posts",
+    "text": "Featured Posts\n\n\n\n📊 R\n\nTidymodels in R\nAn end-to-end guide to machine learning the tidyverse way.\nRead more →\n\n\n\n\n\n🐍 Python\n\nPython for R Users\nComparing tidyverse syntax with pandas and polars.\nRead more →\n\n\n\n\n\n🍎 Data Science\n\nData Science in Food\nApplying ML to food quality control.\nRead more →\n\n\n\n\n\nResearch"
   },
   {
-    "objectID": "index.html#publications-nổi-bật",
-    "href": "index.html#publications-nổi-bật",
-    "title": "Xin chào, tôi là [Tên của bạn] 👋",
-    "section": "Publications nổi bật",
-    "text": "Publications nổi bật\n\n📚 [Tên sách / bài báo nổi bật nhất của bạn]\nMô tả ngắn về ấn phẩm — nội dung chính, đóng góp khoa học và nơi xuất bản. Thay bằng thông tin thật của bạn.\nXem tất cả publications →"
+    "objectID": "index.html#featured-publications",
+    "href": "index.html#featured-publications",
+    "title": "Hi, I’m Tam Le 👋",
+    "section": "Featured Publications",
+    "text": "Featured Publications\n\n📚 [Your most notable book / paper]\nA short description of the publication — its main content, scientific contribution, and where it was published. Replace this with your real information.\nSee all publications →"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Bài báo khoa học"
+    "text": "Journal articles"
   },
   {
-    "objectID": "publications.html#bài-báo",
-    "href": "publications.html#bài-báo",
+    "objectID": "publications.html#articles",
+    "href": "publications.html#articles",
     "title": "Publications",
-    "section": "📄 Bài báo",
-    "text": "📄 Bài báo\n\nHọ tên tác giả, A., & Họ tên tác giả, B. (202X). Tiêu đề bài báo về ứng dụng data science trong công nghiệp thực phẩm. Tên tạp chí, Vol(Issue), trang–trang.\nDOI · PDF · Open Access\nAbstract. Tóm tắt mục tiêu nghiên cứu, phương pháp, kết quả và kết luận trong khoảng 150–250 từ. Bạn hãy dán nội dung thực tế vào đây.\n\n\nHọ tên tác giả, A., Họ tên tác giả, C., & Họ tên tác giả, D. (202X). Tiêu đề bài báo về machine learning và phân tích dữ liệu với R. Tên tạp chí, Vol(Issue), trang–trang.\nDOI · PDF · Code\nAbstract. Bạn hãy dán nội dung abstract thực tế vào đây.\n\n\nHọ tên tác giả, A. (202X). Tiêu đề bài báo về phân tích thống kê với Python. Tên tạp chí, Vol(Issue), trang–trang.\nDOI · PDF\nAbstract. Bạn hãy dán nội dung abstract thực tế vào đây.\n\n\nChương sách"
+    "section": "📄 Articles",
+    "text": "📄 Articles\n\nAuthor, A., & Author, B. (202X). Title of the paper on applying data science in the food industry. Journal Name, Vol(Issue), pp.–pp.\nDOI · PDF · Open Access\nAbstract. Summarize the research objective, methods, results, and conclusions in about 150–250 words. Paste your actual content here.\n\n\nAuthor, A., Author, C., & Author, D. (202X). Title of the paper on machine learning and data analysis with R. Journal Name, Vol(Issue), pp.–pp.\nDOI · PDF · Code\nAbstract. Paste your actual abstract here.\n\n\nAuthor, A. (202X). Title of the paper on statistical analysis with Python. Journal Name, Vol(Issue), pp.–pp.\nDOI · PDF\nAbstract. Paste your actual abstract here.\n\n\nBook chapters"
   },
   {
-    "objectID": "publications.html#chương-sách",
-    "href": "publications.html#chương-sách",
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
     "title": "Publications",
-    "section": "🔖 Chương sách",
-    "text": "🔖 Chương sách\n\nHọ tên tác giả, A. (202X). Tiêu đề chương sách. In Tên biên tập viên (Ed.), Tên quyển sách (trang XX–XX). Nhà xuất bản.\nDOI · PDF\nAbstract. Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.\n\n\nHọ tên tác giả, A., & Họ tên tác giả, B. (202X). Tiêu đề chương sách thứ hai. In Tên biên tập viên (Ed.), Tên quyển sách (trang XX–XX). Nhà xuất bản.\nDOI\nAbstract. Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.\n\n\nSách"
+    "section": "🔖 Book Chapters",
+    "text": "🔖 Book Chapters\n\nAuthor, A. (202X). Title of the book chapter. In Editor Name (Ed.), Book Title (pp. XX–XX). Publisher.\nDOI · PDF\nAbstract. Summarize the book chapter. Paste your actual content here.\n\n\nAuthor, A., & Author, B. (202X). Title of the second book chapter. In Editor Name (Ed.), Book Title (pp. XX–XX). Publisher.\nDOI\nAbstract. Summarize the book chapter. Paste your actual content here.\n\n\nBooks"
   },
   {
-    "objectID": "publications.html#sách",
-    "href": "publications.html#sách",
+    "objectID": "publications.html#books",
+    "href": "publications.html#books",
     "title": "Publications",
-    "section": "📕 Sách",
-    "text": "📕 Sách\n\nHọ tên tác giả, A. (202X). Tên quyển sách của bạn. Nhà xuất bản.\nDOI · PDF · Code · Open Access\nAbstract. Tóm tắt nội dung quyển sách. Bạn hãy dán nội dung thực tế vào đây."
+    "section": "📕 Books",
+    "text": "📕 Books\n\nAuthor, A. (202X). Title of your book. Publisher.\nDOI · PDF · Code · Open Access\nAbstract. Summarize the book. Paste your actual content here."
   },
   {
     "objectID": "posts/python/index.html",
     "href": "posts/python/index.html",
-    "title": "Python cho người dùng R: Những khác biệt cần biết",
+    "title": "Python for R Users: Key Differences to Know",
     "section": "",
-    "text": "Chuyển từ R sang Python không cần bắt đầu từ đầu. Bài viết so sánh tidyverse với pandas/polars.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Moving from R to Python doesn’t mean starting from scratch. This post compares tidyverse with pandas/polars.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
-    "objectID": "posts/python/index.html#giới-thiệu",
-    "href": "posts/python/index.html#giới-thiệu",
-    "title": "Python cho người dùng R: Những khác biệt cần biết",
+    "objectID": "posts/python/index.html#introduction",
+    "href": "posts/python/index.html#introduction",
+    "title": "Python for R Users: Key Differences to Know",
     "section": "",
-    "text": "Chuyển từ R sang Python không cần bắt đầu từ đầu. Bài viết so sánh tidyverse với pandas/polars.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Moving from R to Python doesn’t mean starting from scratch. This post compares tidyverse with pandas/polars.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
     "objectID": "posts/git/index.html",
     "href": "posts/git/index.html",
-    "title": "Git cho nhà nghiên cứu: Quản lý dự án phân tích dữ liệu",
+    "title": "Git for Researchers: Managing Data Analysis Projects",
     "section": "",
-    "text": "Git giúp nhà nghiên cứu quản lý phiên bản code và cộng tác hiệu quả.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Git helps researchers manage code versions and collaborate effectively.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
-    "objectID": "posts/git/index.html#giới-thiệu",
-    "href": "posts/git/index.html#giới-thiệu",
-    "title": "Git cho nhà nghiên cứu: Quản lý dự án phân tích dữ liệu",
+    "objectID": "posts/git/index.html#introduction",
+    "href": "posts/git/index.html#introduction",
+    "title": "Git for Researchers: Managing Data Analysis Projects",
     "section": "",
-    "text": "Git giúp nhà nghiên cứu quản lý phiên bản code và cộng tác hiệu quả.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Git helps researchers manage code versions and collaborate effectively.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
     "objectID": "consulting.html",
     "href": "consulting.html",
     "title": "Consulting & Training",
     "section": "",
-    "text": "Hình thức linh hoạt: Tất cả khoá học có thể điều chỉnh thời lượng, nội dung và ngôn ngữ (Tiếng Việt / Tiếng Anh) theo nhu cầu. Liên hệ: email@example.com"
+    "text": "Flexible formats: All courses can be adjusted in duration, content, and language (Vietnamese / English) to fit your needs. Contact: email@example.com"
   },
   {
     "objectID": "consulting.html#statistics-using-r",
     "href": "consulting.html#statistics-using-r",
     "title": "Consulting & Training",
     "section": "📊 Statistics using R",
-    "text": "📊 Statistics using R\n\nR Đại học Doanh nghiệp · ⏱ 16–32 giờ · 📈 Cơ bản → Nâng cao\nKhoá học nền tảng về thống kê ứng dụng và phân tích dữ liệu bằng R — từ nhập và làm sạch dữ liệu, thống kê mô tả, kiểm định giả thuyết đến trực quan hoá và báo cáo.\nNội dung chính: Giới thiệu R & RStudio · tidyverse · Thống kê mô tả · t-test, ANOVA · Hồi quy tuyến tính & logistic · ggplot2 · Báo cáo với Quarto · Giới thiệu tidymodels.\nLiên hệ đặt khoá"
+    "text": "📊 Statistics using R\n\nR University Business · ⏱ 16–32 hours · 📈 Beginner → Advanced\nA foundational course on applied statistics and data analysis with R — from importing and cleaning data, descriptive statistics, and hypothesis testing to visualization and reporting.\nKey topics: Introduction to R & RStudio · tidyverse · Descriptive statistics · t-test, ANOVA · Linear & logistic regression · ggplot2 · Reporting with Quarto · Introduction to tidymodels.\nRequest this course"
   },
   {
     "objectID": "consulting.html#analyzing-sensory-and-consumer-data",
     "href": "consulting.html#analyzing-sensory-and-consumer-data",
     "title": "Consulting & Training",
     "section": "🔬 Analyzing Sensory and Consumer Data",
-    "text": "🔬 Analyzing Sensory and Consumer Data\n\nĐại học Doanh nghiệp · ⏱ 16–24 giờ · 📈 Trung bình → Nâng cao\nKhoá học chuyên sâu về phân tích dữ liệu cảm quan và người tiêu dùng — từ phân tích mô tả, preference mapping đến phân tích cụm người tiêu dùng với R.\nNội dung chính: Thiết kế thí nghiệm cảm quan · QDA · ANOVA cảm quan · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.\nLiên hệ đặt khoá"
+    "text": "🔬 Analyzing Sensory and Consumer Data\n\nUniversity Business · ⏱ 16–24 hours · 📈 Intermediate → Advanced\nAn in-depth course on analyzing sensory and consumer data — from descriptive analysis and preference mapping to consumer cluster analysis with R.\nKey topics: Sensory experiment design · QDA · Sensory ANOVA · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.\nRequest this course"
   },
   {
     "objectID": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
     "href": "consulting.html#qualitative-and-quantitative-methods-in-consumer-science",
     "title": "Consulting & Training",
     "section": "🔍 Qualitative and Quantitative Methods in Consumer Science",
-    "text": "🔍 Qualitative and Quantitative Methods in Consumer Science\n\nĐại học · ⏱ 24–45 giờ · 📈 Cơ bản → Nâng cao\nKhoá học phương pháp luận nghiên cứu kết hợp định tính và định lượng. Phù hợp cho sinh viên, học viên cao học và nghiên cứu sinh.\nNội dung chính: Triết học nghiên cứu · Phỏng vấn sâu & Focus group · Phân tích nội dung định tính · Thiết kế bảng câu hỏi · Thang đo Likert · SEM · Mixed methods · Đạo đức nghiên cứu.\nLiên hệ đặt khoá"
+    "text": "🔍 Qualitative and Quantitative Methods in Consumer Science\n\nUniversity · ⏱ 24–45 hours · 📈 Beginner → Advanced\nA research-methodology course combining qualitative and quantitative approaches. Suitable for undergraduates, master’s students, and PhD candidates.\nKey topics: Research philosophy · In-depth interviews & focus groups · Qualitative content analysis · Questionnaire design · Likert scales · SEM · Mixed methods · Research ethics.\nRequest this course"
   },
   {
-    "objectID": "consulting.html#application-of-data-science-in-food-industry",
-    "href": "consulting.html#application-of-data-science-in-food-industry",
+    "objectID": "consulting.html#application-of-data-science-in-the-food-industry",
+    "href": "consulting.html#application-of-data-science-in-the-food-industry",
     "title": "Consulting & Training",
-    "section": "🍎 Application of Data Science in Food Industry",
-    "text": "🍎 Application of Data Science in Food Industry\n\nDoanh nghiệp Đại học · ⏱ 8–16 giờ · 📈 Cơ bản → Trung bình\nKhoá học thực tiễn về ứng dụng data science trong ngành thực phẩm — kiểm soát chất lượng, phân tích hành vi người tiêu dùng và dự báo chuỗi cung ứng.\nNội dung chính: Tổng quan data science trong thực phẩm · ML trong kiểm soát chất lượng · Phân tích hành vi người tiêu dùng · Dự báo chuỗi cung ứng · Text mining · Dashboard tự động · Case study thực tế · R & Python.\nLiên hệ đặt khoá\n\n\n\n📨 Cần khoá đào tạo riêng?\nTôi thiết kế chương trình theo nhu cầu cụ thể của đơn vị bạn — về nội dung, thời lượng và đối tượng học viên.\nGửi yêu cầu"
+    "section": "🍎 Application of Data Science in the Food Industry",
+    "text": "🍎 Application of Data Science in the Food Industry\n\nBusiness University · ⏱ 8–16 hours · 📈 Beginner → Intermediate\nA practical course on applying data science in the food industry — quality control, consumer behavior analysis, and supply-chain forecasting.\nKey topics: Overview of data science in food · ML in quality control · Consumer behavior analysis · Supply-chain forecasting · Text mining · Automated dashboards · Real-world case studies · R & Python.\nRequest this course\n\n\n\n📨 Need a custom training course?\nI design programs tailored to your organization’s specific needs — in content, duration, and audience.\nSend a request"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "email@example.com\nGitHub · LinkedIn ORCID · Google Scholar\nTải CV (PDF)\n\n\nAbout\n\n\n[Chức danh — Lecturer · Researcher · Data Scientist]\n🏛 [Tên khoa / bộ môn] · [Tên trường / tổ chức]\nĐây là phần giới thiệu ngắn — 2–3 câu mô tả bạn là ai, bạn làm gì và điều gì thúc đẩy bạn trong công việc nghiên cứu và giảng dạy.\nĐoạn thứ hai đề cập lý do bạn tạo website — chia sẻ kiến thức, kết nối cộng đồng nghiên cứu, hoặc giới thiệu các khoá đào tạo.\nEducation"
+    "text": "email@example.com\nGitHub · LinkedIn ORCID · Google Scholar\nDownload CV (PDF)\n\n\nAbout\n\n\n[Title — Lecturer · Researcher · Data Scientist]\n🏛 [Department / Division] · [University / Organization]\nThis is a short introduction — 2–3 sentences describing who you are, what you do, and what drives your research and teaching.\nThe second paragraph explains why you created this website — to share knowledge, connect with the research community, or showcase your training courses.\nEducation"
   },
   {
-    "objectID": "about.html#chuyên-môn-đào-tạo",
-    "href": "about.html#chuyên-môn-đào-tạo",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
     "title": "About Me",
-    "section": "🎓 Chuyên môn đào tạo",
-    "text": "🎓 Chuyên môn đào tạo\n\n\nTiến sĩ (PhD) — [Tên ngành]\n20XX – 20XX · [Tên trường], [Quốc gia]\nLuận án: “[Tiêu đề luận án]”. Người hướng dẫn: [Tên GS].\n\n\nThạc sĩ (MSc) — [Tên ngành]\n20XX – 20XX · [Tên trường], [Quốc gia]\nLuận văn: “[Tiêu đề luận văn]”.\n\n\nCử nhân (BSc) — [Tên ngành]\n20XX – 20XX · [Tên trường], [Quốc gia]\n\n\n\nExperience"
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\n\nPhD — [Field]\n20XX – 20XX · [University], [Country]\nDissertation: “[Dissertation title]”. Advisor: [Advisor name].\n\n\nMSc — [Field]\n20XX – 20XX · [University], [Country]\nThesis: “[Thesis title]”.\n\n\nBSc — [Field]\n20XX – 20XX · [University], [Country]\n\n\n\nExperience"
   },
   {
-    "objectID": "about.html#vị-trí-hiện-tại",
-    "href": "about.html#vị-trí-hiện-tại",
+    "objectID": "about.html#current-position",
+    "href": "about.html#current-position",
     "title": "About Me",
-    "section": "💼 Vị trí hiện tại",
-    "text": "💼 Vị trí hiện tại\n\n[Chức danh — Giảng viên / Nghiên cứu viên]\n20XX – nay · [Tên khoa], [Tên trường], [Quốc gia]\nMô tả ngắn nhiệm vụ hiện tại — giảng dạy, nghiên cứu, dự án đang thực hiện."
+    "section": "💼 Current Position",
+    "text": "💼 Current Position\n\n[Title — Lecturer / Researcher]\n20XX – present · [Department], [University], [Country]\nA short description of your current responsibilities — teaching, research, ongoing projects."
   },
   {
-    "objectID": "about.html#các-vị-trí-đã-qua",
-    "href": "about.html#các-vị-trí-đã-qua",
+    "objectID": "about.html#previous-positions",
+    "href": "about.html#previous-positions",
     "title": "About Me",
-    "section": "🕓 Các vị trí đã qua",
-    "text": "🕓 Các vị trí đã qua\n\n\n[Postdoctoral Researcher]\n20XX – 20XX · [Tên tổ chức], [Quốc gia]\nMô tả ngắn về công việc và thành tích.\n\n\n[Research / Teaching Assistant]\n20XX – 20XX · [Tên tổ chức], [Quốc gia]\nMô tả ngắn về công việc và thành tích.\n\n\n[Data Analyst / Consultant]\n20XX – 20XX · [Tên công ty], [Quốc gia]\nMô tả ngắn về công việc và thành tích.\n\n\n\nResearch"
+    "section": "🕓 Previous Positions",
+    "text": "🕓 Previous Positions\n\n\n[Postdoctoral Researcher]\n20XX – 20XX · [Organization], [Country]\nA short description of your work and achievements.\n\n\n[Research / Teaching Assistant]\n20XX – 20XX · [Organization], [Country]\nA short description of your work and achievements.\n\n\n[Data Analyst / Consultant]\n20XX – 20XX · [Company], [Country]\nA short description of your work and achievements.\n\n\n\nResearch"
   },
   {
     "objectID": "about.html#research-interests",
     "href": "about.html#research-interests",
     "title": "About Me",
     "section": "🔬 Research Interests",
-    "text": "🔬 Research Interests\n\n\n\n🧪 #### Khoa học cảm quan & người tiêu dùng Preference mapping, hành vi lựa chọn thực phẩm, phân tích dữ liệu cảm quan.\n\n\n\n\n📈 #### Thống kê ứng dụng Mô hình hồi quy, phân tích đa biến, SEM trong nghiên cứu thực phẩm.\n\n\n\n\n🍎 #### Data Science trong thực phẩm ML và AI vào kiểm soát chất lượng và chuỗi cung ứng thực phẩm.\n\n\n\n\n🔍 #### Phương pháp nghiên cứu định tính Phỏng vấn sâu, focus group, phân tích nội dung trong nghiên cứu người tiêu dùng.\n\n\n\n\nSkills"
+    "text": "🔬 Research Interests\n\n\n\n🧪 #### Sensory & Consumer Science Preference mapping, food choice behavior, sensory data analysis.\n\n\n\n\n📈 #### Applied Statistics Regression models, multivariate analysis, SEM in food research.\n\n\n\n\n🍎 #### Data Science in Food ML and AI for quality control and food supply chains.\n\n\n\n\n🔍 #### Qualitative Research Methods In-depth interviews, focus groups, content analysis in consumer research.\n\n\n\n\nSkills"
   },
   {
-    "objectID": "about.html#kỹ-năng-công-cụ",
-    "href": "about.html#kỹ-năng-công-cụ",
+    "objectID": "about.html#skills-tools",
+    "href": "about.html#skills-tools",
     "title": "About Me",
-    "section": "🛠 Kỹ năng & công cụ",
-    "text": "🛠 Kỹ năng & công cụ\nR / tidyverse Python LaTeX Git / GitHub ggplot2 tidymodels Quarto Machine Learning SensoMineR SEM"
+    "section": "🛠 Skills & Tools",
+    "text": "🛠 Skills & Tools\nR / tidyverse Python LaTeX Git / GitHub ggplot2 tidymodels Quarto Machine Learning SensoMineR SEM"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog Archive",
     "section": "",
-    "text": "Tidymodels: Machine learning theo phong cách tidyverse\n\n\n\n\n\n\n\nR\n\n\nMachine Learning\n\n\n\n\nHướng dẫn toàn diện về tidymodels — từ tiền xử lý với recipes, xây dựng mô hình với parsnip, đến đánh giá với yardstick.\n\n\n\n\n\n\nMar 15, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nLaTeX từ A đến Z: Viết báo cáo học thuật chuyên nghiệp\n\n\n\n\n\n\n\nLaTeX\n\n\n\n\nHướng dẫn thực hành LaTeX — cấu trúc tài liệu, công thức toán, bảng biểu và trích dẫn với BibTeX.\n\n\n\n\n\n\nFeb 2, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nGit cho nhà nghiên cứu: Quản lý dự án phân tích dữ liệu\n\n\n\n\n\n\n\nGit\n\n\n\n\nGiới thiệu Git và GitHub cho dự án R/Python — các lệnh thiết yếu và quy trình làm việc nhóm.\n\n\n\n\n\n\nJan 18, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nPython cho người dùng R: Những khác biệt cần biết\n\n\n\n\n\n\n\nPython\n\n\n\n\nSo sánh trực tiếp cú pháp tidyverse với pandas và polars — làm quen Python nhanh dựa trên nền R.\n\n\n\n\n\n\nDec 5, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\nData Science trong công nghiệp thực phẩm: Ứng dụng thực tiễn\n\n\n\n\n\n\n\nData Science\n\n\n\n\nCách data science thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến phân tích hành vi người tiêu dùng.\n\n\n\n\n\n\nNov 10, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Tidymodels: Machine Learning the Tidyverse Way\n\n\n\n\n\n\n\nR\n\n\nMachine Learning\n\n\n\n\nA comprehensive guide to tidymodels — from preprocessing with recipes and model building with parsnip to evaluation with yardstick.\n\n\n\n\n\n\nMar 15, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nLaTeX from A to Z: Writing Professional Academic Reports\n\n\n\n\n\n\n\nLaTeX\n\n\n\n\nA hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX.\n\n\n\n\n\n\nFeb 2, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nGit for Researchers: Managing Data Analysis Projects\n\n\n\n\n\n\n\nGit\n\n\n\n\nAn introduction to Git and GitHub for R/Python projects — essential commands and team workflows.\n\n\n\n\n\n\nJan 18, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nPython for R Users: Key Differences to Know\n\n\n\n\n\n\n\nPython\n\n\n\n\nA direct comparison of tidyverse syntax with pandas and polars — get up to speed in Python building on your R background.\n\n\n\n\n\n\nDec 5, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\nData Science in the Food Industry: Practical Applications\n\n\n\n\n\n\n\nData Science\n\n\n\n\nHow data science is transforming the food industry — from quality control to consumer behavior analysis.\n\n\n\n\n\n\nNov 10, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/data-science-food/index.html",
     "href": "posts/data-science-food/index.html",
-    "title": "Data Science trong công nghiệp thực phẩm: Ứng dụng thực tiễn",
+    "title": "Data Science in the Food Industry: Practical Applications",
     "section": "",
-    "text": "Data science đang thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến tối ưu chuỗi cung ứng.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Data science is transforming the food industry — from quality control to supply-chain optimization.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
-    "objectID": "posts/data-science-food/index.html#giới-thiệu",
-    "href": "posts/data-science-food/index.html#giới-thiệu",
-    "title": "Data Science trong công nghiệp thực phẩm: Ứng dụng thực tiễn",
+    "objectID": "posts/data-science-food/index.html#introduction",
+    "href": "posts/data-science-food/index.html#introduction",
+    "title": "Data Science in the Food Industry: Practical Applications",
     "section": "",
-    "text": "Data science đang thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến tối ưu chuỗi cung ứng.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "Data science is transforming the food industry — from quality control to supply-chain optimization.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
     "objectID": "posts/latex/index.html",
     "href": "posts/latex/index.html",
-    "title": "LaTeX từ A đến Z: Viết báo cáo học thuật chuyên nghiệp",
+    "title": "LaTeX from A to Z: Writing Professional Academic Reports",
     "section": "",
-    "text": "LaTeX là công cụ soạn thảo tài liệu khoa học mạnh mẽ. Bài viết hướng dẫn thực hành từ cơ bản.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "LaTeX is a powerful tool for typesetting scientific documents. This post is a hands-on guide starting from the basics.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
-    "objectID": "posts/latex/index.html#giới-thiệu",
-    "href": "posts/latex/index.html#giới-thiệu",
-    "title": "LaTeX từ A đến Z: Viết báo cáo học thuật chuyên nghiệp",
+    "objectID": "posts/latex/index.html#introduction",
+    "href": "posts/latex/index.html#introduction",
+    "title": "LaTeX from A to Z: Writing Professional Academic Reports",
     "section": "",
-    "text": "LaTeX là công cụ soạn thảo tài liệu khoa học mạnh mẽ. Bài viết hướng dẫn thực hành từ cơ bản.\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "text": "LaTeX is a powerful tool for typesetting scientific documents. This post is a hands-on guide starting from the basics.\n\nThis is placeholder content. Replace it with your actual post."
   },
   {
     "objectID": "posts/tidymodels/index.html",
     "href": "posts/tidymodels/index.html",
-    "title": "Tidymodels: Machine learning theo phong cách tidyverse",
+    "title": "Tidymodels: Machine Learning the Tidyverse Way",
     "section": "",
-    "text": "tidymodels là bộ công cụ machine learning theo triết lý tidyverse. Bài viết này hướng dẫn quy trình hoàn chỉnh từ A đến Z."
+    "text": "tidymodels is a machine learning toolkit built on the tidyverse philosophy. This post walks through the complete workflow from start to finish."
   },
   {
-    "objectID": "posts/tidymodels/index.html#giới-thiệu",
-    "href": "posts/tidymodels/index.html#giới-thiệu",
-    "title": "Tidymodels: Machine learning theo phong cách tidyverse",
+    "objectID": "posts/tidymodels/index.html#introduction",
+    "href": "posts/tidymodels/index.html#introduction",
+    "title": "Tidymodels: Machine Learning the Tidyverse Way",
     "section": "",
-    "text": "tidymodels là bộ công cụ machine learning theo triết lý tidyverse. Bài viết này hướng dẫn quy trình hoàn chỉnh từ A đến Z."
+    "text": "tidymodels is a machine learning toolkit built on the tidyverse philosophy. This post walks through the complete workflow from start to finish."
   },
   {
-    "objectID": "posts/tidymodels/index.html#các-bước-chính",
-    "href": "posts/tidymodels/index.html#các-bước-chính",
-    "title": "Tidymodels: Machine learning theo phong cách tidyverse",
-    "section": "Các bước chính",
-    "text": "Các bước chính\n\nTiền xử lý dữ liệu với recipes\nXây dựng mô hình với parsnip\nĐánh giá với yardstick\n\n\nĐây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình."
+    "objectID": "posts/tidymodels/index.html#main-steps",
+    "href": "posts/tidymodels/index.html#main-steps",
+    "title": "Tidymodels: Machine Learning the Tidyverse Way",
+    "section": "Main Steps",
+    "text": "Main Steps\n\nPreprocess data with recipes\nBuild models with parsnip\nEvaluate with yardstick\n\n\nThis is placeholder content. Replace it with your actual post."
   }
 ]

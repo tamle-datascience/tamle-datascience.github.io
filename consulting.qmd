@@ -1,66 +1,66 @@
 ---
 title: "Consulting & Training"
-subtitle: "Khoá đào tạo chuyên sâu về thống kê, khoa học dữ liệu và nghiên cứu người tiêu dùng — cho trường đại học và doanh nghiệp."
+subtitle: "In-depth training in statistics, data science, and consumer research — for universities and businesses."
 ---
 
 ::: {.banner}
-**Hình thức linh hoạt:** Tất cả khoá học có thể điều chỉnh thời lượng, nội dung và ngôn ngữ (Tiếng Việt / Tiếng Anh) theo nhu cầu. Liên hệ: [email@example.com](mailto:email@example.com)
+**Flexible formats:** All courses can be adjusted in duration, content, and language (Vietnamese / English) to fit your needs. Contact: [email@example.com](mailto:email@example.com)
 :::
 
 ## 📊 Statistics using R
 
 ::: {.card-soft}
-[R]{.tag} [Đại học]{.tag} [Doanh nghiệp]{.tag-green .tag} · ⏱ 16–32 giờ · 📈 Cơ bản → Nâng cao
+[R]{.tag} [University]{.tag} [Business]{.tag-green .tag} · ⏱ 16–32 hours · 📈 Beginner → Advanced
 
-Khoá học nền tảng về thống kê ứng dụng và phân tích dữ liệu bằng R — từ nhập và làm sạch dữ liệu, thống kê mô tả, kiểm định giả thuyết đến trực quan hoá và báo cáo.
+A foundational course on applied statistics and data analysis with R — from importing and cleaning data, descriptive statistics, and hypothesis testing to visualization and reporting.
 
-**Nội dung chính:** Giới thiệu R & RStudio · tidyverse · Thống kê mô tả · t-test, ANOVA · Hồi quy tuyến tính & logistic · ggplot2 · Báo cáo với Quarto · Giới thiệu tidymodels.
+**Key topics:** Introduction to R & RStudio · tidyverse · Descriptive statistics · t-test, ANOVA · Linear & logistic regression · ggplot2 · Reporting with Quarto · Introduction to tidymodels.
 
-[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+[Request this course](mailto:email@example.com){.btn-primary}
 :::
 
 ## 🔬 Analyzing Sensory and Consumer Data
 
 ::: {.card-soft}
-[Đại học]{.tag} [Doanh nghiệp]{.tag-green .tag} · ⏱ 16–24 giờ · 📈 Trung bình → Nâng cao
+[University]{.tag} [Business]{.tag-green .tag} · ⏱ 16–24 hours · 📈 Intermediate → Advanced
 
-Khoá học chuyên sâu về phân tích dữ liệu cảm quan và người tiêu dùng — từ phân tích mô tả, preference mapping đến phân tích cụm người tiêu dùng với R.
+An in-depth course on analyzing sensory and consumer data — from descriptive analysis and preference mapping to consumer cluster analysis with R.
 
-**Nội dung chính:** Thiết kế thí nghiệm cảm quan · QDA · ANOVA cảm quan · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.
+**Key topics:** Sensory experiment design · QDA · Sensory ANOVA · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.
 
-[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+[Request this course](mailto:email@example.com){.btn-primary}
 :::
 
 ## 🔍 Qualitative and Quantitative Methods in Consumer Science
 
 ::: {.card-soft}
-[Đại học]{.tag} · ⏱ 24–45 giờ · 📈 Cơ bản → Nâng cao
+[University]{.tag} · ⏱ 24–45 hours · 📈 Beginner → Advanced
 
-Khoá học phương pháp luận nghiên cứu kết hợp định tính và định lượng. Phù hợp cho sinh viên, học viên cao học và nghiên cứu sinh.
+A research-methodology course combining qualitative and quantitative approaches. Suitable for undergraduates, master's students, and PhD candidates.
 
-**Nội dung chính:** Triết học nghiên cứu · Phỏng vấn sâu & Focus group · Phân tích nội dung định tính · Thiết kế bảng câu hỏi · Thang đo Likert · SEM · Mixed methods · Đạo đức nghiên cứu.
+**Key topics:** Research philosophy · In-depth interviews & focus groups · Qualitative content analysis · Questionnaire design · Likert scales · SEM · Mixed methods · Research ethics.
 
-[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+[Request this course](mailto:email@example.com){.btn-primary}
 :::
 
-## 🍎 Application of Data Science in Food Industry
+## 🍎 Application of Data Science in the Food Industry
 
 ::: {.card-soft}
-[Doanh nghiệp]{.tag-green .tag} [Đại học]{.tag} · ⏱ 8–16 giờ · 📈 Cơ bản → Trung bình
+[Business]{.tag-green .tag} [University]{.tag} · ⏱ 8–16 hours · 📈 Beginner → Intermediate
 
-Khoá học thực tiễn về ứng dụng data science trong ngành thực phẩm — kiểm soát chất lượng, phân tích hành vi người tiêu dùng và dự báo chuỗi cung ứng.
+A practical course on applying data science in the food industry — quality control, consumer behavior analysis, and supply-chain forecasting.
 
-**Nội dung chính:** Tổng quan data science trong thực phẩm · ML trong kiểm soát chất lượng · Phân tích hành vi người tiêu dùng · Dự báo chuỗi cung ứng · Text mining · Dashboard tự động · Case study thực tế · R & Python.
+**Key topics:** Overview of data science in food · ML in quality control · Consumer behavior analysis · Supply-chain forecasting · Text mining · Automated dashboards · Real-world case studies · R & Python.
 
-[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+[Request this course](mailto:email@example.com){.btn-primary}
 :::
 
 <hr class="divider">
 
 ::: {.card-soft}
-### 📨 Cần khoá đào tạo riêng?
+### 📨 Need a custom training course?
 
-Tôi thiết kế chương trình theo nhu cầu cụ thể của đơn vị bạn — về nội dung, thời lượng và đối tượng học viên.
+I design programs tailored to your organization's specific needs — in content, duration, and audience.
 
-[Gửi yêu cầu](mailto:email@example.com){.btn-primary}
+[Send a request](mailto:email@example.com){.btn-primary}
 :::

@@ -1,12 +1,12 @@
 ---
-title: "LaTeX từ A đến Z: Viết báo cáo học thuật chuyên nghiệp"
-description: "Hướng dẫn thực hành LaTeX — cấu trúc tài liệu, công thức toán, bảng biểu và trích dẫn với BibTeX."
+title: "LaTeX from A to Z: Writing Professional Academic Reports"
+description: "A hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX."
 date: "2025-02-02"
 categories: [LaTeX]
 ---
 
-## Giới thiệu
+## Introduction
 
-LaTeX là công cụ soạn thảo tài liệu khoa học mạnh mẽ. Bài viết hướng dẫn thực hành từ cơ bản.
+LaTeX is a powerful tool for typesetting scientific documents. This post is a hands-on guide starting from the basics.
 
-> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.
+> This is placeholder content. Replace it with your actual post.

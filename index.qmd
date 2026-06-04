@@ -6,11 +6,11 @@ title: ""
 
 [Data Scientist · Researcher · Educator]{.badge-pill}
 
-# Xin chào, tôi là [[Lê Minh Tâm]]{.grad} 👋
+# Hi, I'm [Tam Le]{.grad} 👋
 
-Nhà nghiên cứu và giảng viên chuyên về **thống kê ứng dụng**, **khoa học dữ liệu** và **nghiên cứu người tiêu dùng** trong ngành thực phẩm.
+Researcher and lecturer specializing in **applied statistics** and **consumer research** in the food industry.
 
-[Về tôi](about.qmd){.btn-primary}
+[About me](about.qmd){.btn-primary}
 [Publications](publications.qmd){.btn-outline}
 [Consulting](consulting.qmd){.btn-outline}
 
@@ -33,13 +33,13 @@ Nhà nghiên cứu và giảng viên chuyên về **thống kê ứng dụng**, 
 ::: {.g-col-3}
 ::: {.stat}
 [5+]{.num}
-[Bài blog]{.lbl}
+[Blog Posts]{.lbl}
 :::
 :::
 ::: {.g-col-3}
 ::: {.stat}
 [10+]{.num}
-[Năm kinh nghiệm]{.lbl}
+[Years of Experience]{.lbl}
 :::
 :::
 ::::
@@ -47,9 +47,9 @@ Nhà nghiên cứu và giảng viên chuyên về **thống kê ứng dụng**, 
 
 <hr class="divider">
 
-[Nội dung mới nhất]{.label}
+[Latest content]{.label}
 
-## Bài viết nổi bật
+## Featured Posts
 
 ::: {.grid}
 ::: {.g-col-4}
@@ -57,11 +57,11 @@ Nhà nghiên cứu và giảng viên chuyên về **thống kê ứng dụng**, 
 [📊]{.ico}
 [R]{.tag}
 
-### Tidymodels trong R
+### Tidymodels in R
 
-Hướng dẫn machine learning theo phong cách tidyverse từ A đến Z.
+An end-to-end guide to machine learning the tidyverse way.
 
-[Đọc tiếp →](blog.qmd)
+[Read more →](blog.qmd)
 :::
 :::
 ::: {.g-col-4}
@@ -69,11 +69,11 @@ Hướng dẫn machine learning theo phong cách tidyverse từ A đến Z.
 [🐍]{.ico}
 [Python]{.tag-orange .tag}
 
-### Python cho người dùng R
+### Python for R Users
 
-So sánh cú pháp tidyverse với pandas và polars.
+Comparing tidyverse syntax with pandas and polars.
 
-[Đọc tiếp →](blog.qmd)
+[Read more →](blog.qmd)
 :::
 :::
 ::: {.g-col-4}
@@ -81,11 +81,11 @@ So sánh cú pháp tidyverse với pandas và polars.
 [🍎]{.ico}
 [Data Science]{.tag-green .tag}
 
-### Data Science thực phẩm
+### Data Science in Food
 
-Ứng dụng ML vào kiểm soát chất lượng thực phẩm.
+Applying ML to food quality control.
 
-[Đọc tiếp →](blog.qmd)
+[Read more →](blog.qmd)
 :::
 :::
 :::
@@ -94,12 +94,12 @@ So sánh cú pháp tidyverse với pandas và polars.
 
 [Research]{.label}
 
-## Publications nổi bật
+## Featured Publications
 
 ::: {.card-soft}
-### 📚 [Tên sách / bài báo nổi bật nhất của bạn]
+### 📚 [Your most notable book / paper]
 
-Mô tả ngắn về ấn phẩm — nội dung chính, đóng góp khoa học và nơi xuất bản. Thay bằng thông tin thật của bạn.
+A short description of the publication — its main content, scientific contribution, and where it was published. Replace this with your real information.
 
-[Xem tất cả publications →](publications.qmd){.btn-primary}
+[See all publications →](publications.qmd){.btn-primary}
 :::

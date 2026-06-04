@@ -1,6 +1,6 @@
 ---
 title: "Blog Archive"
-subtitle: "Toàn bộ bài viết về R, Python, LaTeX, Git và ứng dụng data science."
+subtitle: "All posts on R, Python, LaTeX, Git, and applied data science."
 listing:
   contents: posts
   type: default

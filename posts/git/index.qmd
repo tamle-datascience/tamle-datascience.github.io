@@ -1,12 +1,12 @@
 ---
-title: "Git cho nhà nghiên cứu: Quản lý dự án phân tích dữ liệu"
-description: "Giới thiệu Git và GitHub cho dự án R/Python — các lệnh thiết yếu và quy trình làm việc nhóm."
+title: "Git for Researchers: Managing Data Analysis Projects"
+description: "An introduction to Git and GitHub for R/Python projects — essential commands and team workflows."
 date: "2025-01-18"
 categories: [Git]
 ---
 
-## Giới thiệu
+## Introduction
 
-Git giúp nhà nghiên cứu quản lý phiên bản code và cộng tác hiệu quả.
+Git helps researchers manage code versions and collaborate effectively.
 
-> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.
+> This is placeholder content. Replace it with your actual post.

@@ -1,68 +1,68 @@
 ---
 title: "Publications"
-subtitle: "Danh sách bài báo khoa học, chương sách và sách đã xuất bản. Trích dẫn theo định dạng APA."
+subtitle: "List of journal articles, book chapters, and books. Citations in APA format."
 ---
 
-[Bài báo khoa học]{.label}
+[Journal articles]{.label}
 
-## 📄 Bài báo
+## 📄 Articles
 
 ::: {.pub}
-[Họ tên tác giả, A., & Họ tên tác giả, B. (202X). *Tiêu đề bài báo về ứng dụng data science trong công nghiệp thực phẩm.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
+[Author, A., & Author, B. (202X). *Title of the paper on applying data science in the food industry.* **Journal Name**, Vol(Issue), pp.–pp.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Open Access](#)
 
-**Abstract.** Tóm tắt mục tiêu nghiên cứu, phương pháp, kết quả và kết luận trong khoảng 150–250 từ. Bạn hãy dán nội dung thực tế vào đây.
+**Abstract.** Summarize the research objective, methods, results, and conclusions in about 150–250 words. Paste your actual content here.
 :::
 
 ::: {.pub}
-[Họ tên tác giả, A., Họ tên tác giả, C., & Họ tên tác giả, D. (202X). *Tiêu đề bài báo về machine learning và phân tích dữ liệu với R.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
+[Author, A., Author, C., & Author, D. (202X). *Title of the paper on machine learning and data analysis with R.* **Journal Name**, Vol(Issue), pp.–pp.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Code](https://github.com/username)
 
-**Abstract.** Bạn hãy dán nội dung abstract thực tế vào đây.
+**Abstract.** Paste your actual abstract here.
 :::
 
 ::: {.pub}
-[Họ tên tác giả, A. (202X). *Tiêu đề bài báo về phân tích thống kê với Python.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
+[Author, A. (202X). *Title of the paper on statistical analysis with Python.* **Journal Name**, Vol(Issue), pp.–pp.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#)
 
-**Abstract.** Bạn hãy dán nội dung abstract thực tế vào đây.
+**Abstract.** Paste your actual abstract here.
 :::
 
 <hr class="divider">
 
-[Chương sách]{.label}
+[Book chapters]{.label}
 
-## 🔖 Chương sách
+## 🔖 Book Chapters
 
 ::: {.pub}
-[Họ tên tác giả, A. (202X). Tiêu đề chương sách. In Tên biên tập viên (Ed.), *Tên quyển sách* (trang XX–XX). Nhà xuất bản.]{.apa}
+[Author, A. (202X). Title of the book chapter. In Editor Name (Ed.), *Book Title* (pp. XX–XX). Publisher.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#)
 
-**Abstract.** Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.
+**Abstract.** Summarize the book chapter. Paste your actual content here.
 :::
 
 ::: {.pub}
-[Họ tên tác giả, A., & Họ tên tác giả, B. (202X). Tiêu đề chương sách thứ hai. In Tên biên tập viên (Ed.), *Tên quyển sách* (trang XX–XX). Nhà xuất bản.]{.apa}
+[Author, A., & Author, B. (202X). Title of the second book chapter. In Editor Name (Ed.), *Book Title* (pp. XX–XX). Publisher.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx)
 
-**Abstract.** Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.
+**Abstract.** Summarize the book chapter. Paste your actual content here.
 :::
 
 <hr class="divider">
 
-[Sách]{.label}
+[Books]{.label}
 
-## 📕 Sách
+## 📕 Books
 
 ::: {.pub}
-[Họ tên tác giả, A. (202X). *Tên quyển sách của bạn.* Nhà xuất bản.]{.apa}
+[Author, A. (202X). *Title of your book.* Publisher.]{.apa}
 
 [DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Code](https://github.com/username) · [Open Access](#)
 
-**Abstract.** Tóm tắt nội dung quyển sách. Bạn hãy dán nội dung thực tế vào đây.
+**Abstract.** Summarize the book. Paste your actual content here.
 :::

@@ -1,12 +1,12 @@
 ---
-title: "Data Science trong công nghiệp thực phẩm: Ứng dụng thực tiễn"
-description: "Cách data science thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến phân tích hành vi người tiêu dùng."
+title: "Data Science in the Food Industry: Practical Applications"
+description: "How data science is transforming the food industry — from quality control to consumer behavior analysis."
 date: "2024-11-10"
 categories: [Data Science]
 ---
 
-## Giới thiệu
+## Introduction
 
-Data science đang thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến tối ưu chuỗi cung ứng.
+Data science is transforming the food industry — from quality control to supply-chain optimization.
 
-> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.
+> This is placeholder content. Replace it with your actual post.

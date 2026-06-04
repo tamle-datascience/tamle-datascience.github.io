@@ -11,20 +11,20 @@ title: "About Me"
 [GitHub](https://github.com/username) · [LinkedIn](https://linkedin.com/in/username)
 [ORCID](https://orcid.org/0000-0000-0000-0000) · [Google Scholar](https://scholar.google.com)
 
-[Tải CV (PDF)](cv.pdf){.btn-primary}
+[Download CV (PDF)](cv.pdf){.btn-primary}
 :::
 ::: {.g-col-8}
 [About]{.label}
 
-# [Họ và tên đầy đủ]
+# [Full Name]
 
-**[Chức danh — Lecturer · Researcher · Data Scientist]**
+**[Title — Lecturer · Researcher · Data Scientist]**
 
-🏛 [Tên khoa / bộ môn] · [Tên trường / tổ chức]
+🏛 [Department / Division] · [University / Organization]
 
-Đây là phần giới thiệu ngắn — 2–3 câu mô tả bạn là ai, bạn làm gì và điều gì thúc đẩy bạn trong công việc nghiên cứu và giảng dạy.
+This is a short introduction — 2–3 sentences describing who you are, what you do, and what drives your research and teaching.
 
-Đoạn thứ hai đề cập lý do bạn tạo website — chia sẻ kiến thức, kết nối cộng đồng nghiên cứu, hoặc giới thiệu các khoá đào tạo.
+The second paragraph explains why you created this website — to share knowledge, connect with the research community, or showcase your training courses.
 :::
 :::
 
@@ -32,53 +32,53 @@ title: "About Me"
 
 [Education]{.label}
 
-## 🎓 Chuyên môn đào tạo
+## 🎓 Education
 
 ::: {.timeline}
-### Tiến sĩ (PhD) — [Tên ngành]
-[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+### PhD — [Field]
+[20XX – 20XX · [University], [Country]]{.when}
 
-Luận án: *"[Tiêu đề luận án]"*. Người hướng dẫn: [Tên GS].
+Dissertation: *"[Dissertation title]"*. Advisor: [Advisor name].
 
-### Thạc sĩ (MSc) — [Tên ngành]
-[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+### MSc — [Field]
+[20XX – 20XX · [University], [Country]]{.when}
 
-Luận văn: *"[Tiêu đề luận văn]"*.
+Thesis: *"[Thesis title]"*.
 
-### Cử nhân (BSc) — [Tên ngành]
-[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+### BSc — [Field]
+[20XX – 20XX · [University], [Country]]{.when}
 :::
 
 <hr class="divider">
 
 [Experience]{.label}
 
-## 💼 Vị trí hiện tại
+## 💼 Current Position
 
 ::: {.timeline}
-### [Chức danh — Giảng viên / Nghiên cứu viên]
-[20XX – nay · [Tên khoa], [Tên trường], [Quốc gia]]{.when}
+### [Title — Lecturer / Researcher]
+[20XX – present · [Department], [University], [Country]]{.when}
 
-Mô tả ngắn nhiệm vụ hiện tại — giảng dạy, nghiên cứu, dự án đang thực hiện.
+A short description of your current responsibilities — teaching, research, ongoing projects.
 :::
 
-## 🕓 Các vị trí đã qua
+## 🕓 Previous Positions
 
 ::: {.timeline}
 ### [Postdoctoral Researcher]
-[20XX – 20XX · [Tên tổ chức], [Quốc gia]]{.when}
+[20XX – 20XX · [Organization], [Country]]{.when}
 
-Mô tả ngắn về công việc và thành tích.
+A short description of your work and achievements.
 
 ### [Research / Teaching Assistant]
-[20XX – 20XX · [Tên tổ chức], [Quốc gia]]{.when}
+[20XX – 20XX · [Organization], [Country]]{.when}
 
-Mô tả ngắn về công việc và thành tích.
+A short description of your work and achievements.
 
 ### [Data Analyst / Consultant]
-[20XX – 20XX · [Tên công ty], [Quốc gia]]{.when}
+[20XX – 20XX · [Company], [Country]]{.when}
 
-Mô tả ngắn về công việc và thành tích.
+A short description of your work and achievements.
 :::
 
 <hr class="divider">
@@ -91,29 +91,29 @@ Mô tả ngắn về công việc và thành tích.
 ::: {.g-col-6}
 ::: {.card-soft}
 [🧪]{.ico}
-#### Khoa học cảm quan & người tiêu dùng
-Preference mapping, hành vi lựa chọn thực phẩm, phân tích dữ liệu cảm quan.
+#### Sensory & Consumer Science
+Preference mapping, food choice behavior, sensory data analysis.
 :::
 :::
 ::: {.g-col-6}
 ::: {.card-soft}
 [📈]{.ico}
-#### Thống kê ứng dụng
-Mô hình hồi quy, phân tích đa biến, SEM trong nghiên cứu thực phẩm.
+#### Applied Statistics
+Regression models, multivariate analysis, SEM in food research.
 :::
 :::
 ::: {.g-col-6}
 ::: {.card-soft}
 [🍎]{.ico}
-#### Data Science trong thực phẩm
-ML và AI vào kiểm soát chất lượng và chuỗi cung ứng thực phẩm.
+#### Data Science in Food
+ML and AI for quality control and food supply chains.
 :::
 :::
 ::: {.g-col-6}
 ::: {.card-soft}
 [🔍]{.ico}
-#### Phương pháp nghiên cứu định tính
-Phỏng vấn sâu, focus group, phân tích nội dung trong nghiên cứu người tiêu dùng.
+#### Qualitative Research Methods
+In-depth interviews, focus groups, content analysis in consumer research.
 :::
 :::
 :::
@@ -122,6 +122,6 @@ Phỏng vấn sâu, focus group, phân tích nội dung trong nghiên cứu ngư
 
 [Skills]{.label}
 
-## 🛠 Kỹ năng & công cụ
+## 🛠 Skills & Tools
 
 [R / tidyverse]{.chip} [Python]{.chip} [LaTeX]{.chip} [Git / GitHub]{.chip} [ggplot2]{.chip} [tidymodels]{.chip} [Quarto]{.chip} [Machine Learning]{.chip} [SensoMineR]{.chip} [SEM]{.chip}
