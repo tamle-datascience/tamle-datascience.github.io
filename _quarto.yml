@@ -5,10 +5,13 @@ project:
 website:
   title: "[Tên của bạn]"
   favicon: img/avatar.jpg
-
+  # Personal website của tamle-datascience
+  # Repo phải đặt tên: tamle-datascience.github.io
+  site-url: https://tamle-datascience.github.io
   navbar:
     background: light
-    foreground: dark
+    pinned: true
+    logo: img/avatar.jpg
     left:
       - href: index.qmd
         text: Home
@@ -22,7 +25,7 @@ website:
         text: About Me
     right:
       - icon: github
-        href: https://github.com/username
+        href: https://github.com/tamle-datascience
         aria-label: GitHub
       - icon: twitter
         href: https://twitter.com/username
@@ -30,13 +33,16 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/username
         aria-label: LinkedIn
-
   page-footer:
     center: "© 2025 [Tên của bạn] · Built with [Quarto](https://quarto.org)"
+    background: light
 
 format:
   html:
-    theme:
-      - cosmo
-      - styles.css
+    theme: cosmo
+    css: styles.css
     toc: false
+    page-layout: full
+    grid:
+      body-width: 900px
+    anchor-sections: false

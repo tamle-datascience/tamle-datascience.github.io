@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/tidymodels/index.html",
+      "/posts/latex/index.html",
+      "/posts/git/index.html",
+      "/posts/python/index.html",
+      "/posts/data-science-food/index.html"
+    ]
+  }
+]

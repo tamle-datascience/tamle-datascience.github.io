@@ -1,34 +1,49 @@
-# my-website-modern
+# my-website-r
 
-Website cá nhân phong cách Modern Editorial, xây dựng bằng Quarto.
+Website cá nhân viết bằng **Quarto + Markdown thuần** (không cần biết HTML).
 
-## Thiết kế
-- Font: Syne (display) + Manrope (body)
-- Màu chủ: Indigo (#6366F1) + Coral (#F97316)
-- Theme: Modern Editorial — clean, bold, animated
+## Cách chỉnh sửa nội dung
 
-## Cấu trúc
-```
-my-website-modern/
-├── _quarto.yml
-├── styles.css
-├── index.qmd
-├── blog.qmd
-├── publications.qmd
-├── consulting.qmd
-├── about.qmd
-├── cv.pdf          ← Thay bằng CV thật
-├── img/avatar.jpg  ← Thay bằng ảnh thật
-└── .nojekyll
-```
+Mở các file `.qmd` và sửa phần văn bản Markdown:
+- `index.qmd` — Trang chủ
+- `about.qmd` — Giới thiệu bản thân
+- `publications.qmd` — Danh sách publications
+- `consulting.qmd` — Khoá đào tạo
+- `posts/*/index.qmd` — Các bài blog (thêm bài mới = tạo thư mục mới trong posts/)
 
-## Chạy local
+**Không cần đụng vào `styles.css`** — toàn bộ thiết kế đã nằm trong đó.
+
+## Cú pháp đặc biệt (chỉ vài cái đơn giản)
+
+- Nút: `[Văn bản](link){.btn-primary}` hoặc `{.btn-outline}`
+- Thẻ tag: `[R]{.tag}` (hoặc `.tag-green`, `.tag-orange`, `.tag-yellow`)
+- Chữ gradient: `[chữ]{.grad}`
+- Card: bọc nội dung trong `::: {.card-soft}` ... `:::`
+- Nhãn nhỏ: `[NHÃN]{.label}`
+
+## Thêm bài blog mới
+
+1. Tạo thư mục mới: `posts/ten-bai-viet/`
+2. Tạo file `index.qmd` với phần header:
+   ```
+   ---
+   title: "Tiêu đề"
+   description: "Mô tả ngắn"
+   date: "2025-04-01"
+   categories: [R]
+   ---
+   ```
+3. Viết nội dung bằng Markdown bên dưới.
+Trang Blog sẽ **tự động** cập nhật danh sách.
+
+## Chạy & deploy
+
 ```bash
-quarto preview
+quarto preview    # Xem thử
+quarto render     # Build ra /docs
 ```
+Sau đó push lên GitHub Pages (xem deploy-guide.pdf).
 
-## Deploy
-```bash
-quarto render
-git add . && git commit -m "update" && git push
-```
+## Thay thông tin cá nhân
+
+Tìm và thay các placeholder: `[Tên của bạn]`, `email@example.com`, `username`, `[Họ và tên đầy đủ]`, `202X`, ảnh `img/avatar.jpg`, file `cv.pdf`.

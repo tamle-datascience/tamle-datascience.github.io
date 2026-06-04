@@ -1,0 +1,12 @@
+---
+title: "Data Science trong công nghiệp thực phẩm: Ứng dụng thực tiễn"
+description: "Cách data science thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến phân tích hành vi người tiêu dùng."
+date: "2024-11-10"
+categories: [Data Science]
+---
+
+## Giới thiệu
+
+Data science đang thay đổi ngành thực phẩm — từ kiểm soát chất lượng đến tối ưu chuỗi cung ứng.
+
+> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.

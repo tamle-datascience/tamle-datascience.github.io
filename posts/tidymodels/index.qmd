@@ -1,0 +1,18 @@
+---
+title: "Tidymodels: Machine learning theo phong cách tidyverse"
+description: "Hướng dẫn toàn diện về tidymodels — từ tiền xử lý với recipes, xây dựng mô hình với parsnip, đến đánh giá với yardstick."
+date: "2025-03-15"
+categories: [R, Machine Learning]
+---
+
+## Giới thiệu
+
+`tidymodels` là bộ công cụ machine learning theo triết lý tidyverse. Bài viết này hướng dẫn quy trình hoàn chỉnh từ A đến Z.
+
+## Các bước chính
+
+1. Tiền xử lý dữ liệu với `recipes`
+2. Xây dựng mô hình với `parsnip`
+3. Đánh giá với `yardstick`
+
+> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.

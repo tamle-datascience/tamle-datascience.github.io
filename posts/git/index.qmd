@@ -1,0 +1,12 @@
+---
+title: "Git cho nhà nghiên cứu: Quản lý dự án phân tích dữ liệu"
+description: "Giới thiệu Git và GitHub cho dự án R/Python — các lệnh thiết yếu và quy trình làm việc nhóm."
+date: "2025-01-18"
+categories: [Git]
+---
+
+## Giới thiệu
+
+Git giúp nhà nghiên cứu quản lý phiên bản code và cộng tác hiệu quả.
+
+> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.

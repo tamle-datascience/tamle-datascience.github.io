@@ -1,0 +1,12 @@
+---
+title: "LaTeX từ A đến Z: Viết báo cáo học thuật chuyên nghiệp"
+description: "Hướng dẫn thực hành LaTeX — cấu trúc tài liệu, công thức toán, bảng biểu và trích dẫn với BibTeX."
+date: "2025-02-02"
+categories: [LaTeX]
+---
+
+## Giới thiệu
+
+LaTeX là công cụ soạn thảo tài liệu khoa học mạnh mẽ. Bài viết hướng dẫn thực hành từ cơ bản.
+
+> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.

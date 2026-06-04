@@ -1,220 +1,127 @@
 ---
-title: ""
-page-layout: full
-include-in-header:
-  text: |
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-    <style>
-      .about-hero { padding:4rem 2rem 3rem; max-width:900px; margin:0 auto; }
-      .ah-inner { display:flex; gap:3rem; align-items:flex-start; }
-      .ah-left { flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:1.2rem; }
-      .avatar-ring { width:160px; height:160px; border-radius:50%; background:linear-gradient(135deg,#6366F1,#F97316); padding:3px; box-shadow:0 10px 40px rgba(99,102,241,0.25); }
-      .avatar-inner { width:100%; height:100%; border-radius:50%; background:#EEF2FF; display:flex; align-items:center; justify-content:center; overflow:hidden; }
-      .avatar-inner i { font-size:3.5rem; color:#6366F1; opacity:0.4; }
-      .social-stack { display:flex; flex-direction:column; gap:0.5rem; width:100%; }
-      .slink { display:flex; align-items:center; gap:0.6rem; font-size:0.8rem; color:#64748B; text-decoration:none; padding:6px 12px; border-radius:8px; transition:all 0.2s; font-weight:500; white-space:nowrap; }
-      .slink i { width:14px; text-align:center; color:#6366F1; }
-      .slink:hover { background:#EEF2FF; color:#6366F1; }
-      .ah-right { flex:1; }
-      .ah-right h1 { font-family:'Syne',sans-serif; font-size:2.2rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:0.2rem; }
-      .ah-title { font-size:1rem; font-weight:600; color:#6366F1; margin-bottom:0.15rem; }
-      .ah-affil { font-size:0.88rem; color:#94A3B8; font-weight:500; margin-bottom:1.2rem; }
-      .ah-affil i { color:#F97316; margin-right:0.3rem; font-size:0.8rem; }
-      .ah-bio { font-size:0.95rem; color:#475569; line-height:1.8; }
-      .ah-bio p+p { margin-top:0.8rem; }
-      .cv-btn { display:inline-flex; align-items:center; gap:0.5rem; margin-top:1.5rem; padding:0.6rem 1.5rem; background:linear-gradient(135deg,#6366F1,#818CF8); color:#fff; border-radius:999px; text-decoration:none; font-size:0.85rem; font-weight:700; box-shadow:0 4px 14px rgba(99,102,241,0.35); transition:all 0.25s; }
-      .cv-btn:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(99,102,241,0.4); color:#fff; text-decoration:none; }
-      .pw { max-width:900px; margin:0 auto; padding:0 2rem 4rem; }
-      .sec-block { margin-bottom:2.5rem; }
-      .sec-block-title { display:flex; align-items:center; gap:0.8rem; margin-bottom:1.3rem; padding-bottom:0.8rem; border-bottom:2px solid #F1F5F9; }
-      .sec-block-title h2 { font-family:'Syne',sans-serif; font-size:1.15rem; font-weight:700; margin:0; }
-      .sec-block-icon { width:36px; height:36px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0; }
-      .tl { position:relative; padding-left:2rem; }
-      .tl::before { content:''; position:absolute; left:8px; top:8px; bottom:8px; width:2px; background:linear-gradient(to bottom,#6366F1 0%,#E2E8F0 100%); border-radius:2px; }
-      .tl-item { position:relative; margin-bottom:1.6rem; }
-      .tl-dot { position:absolute; left:-2rem; top:5px; width:16px; height:16px; border-radius:50%; border:3px solid #fff; background:#6366F1; box-shadow:0 0 0 2px #6366F1; }
-      .tl-dot-cur { background:linear-gradient(135deg,#6366F1,#F97316); box-shadow:0 0 0 2px #6366F1; animation:glow 2s infinite; }
-      @keyframes glow { 0%,100%{box-shadow:0 0 0 2px #6366F1} 50%{box-shadow:0 0 0 4px rgba(99,102,241,0.3)} }
-      .tl-dot-muted { background:#CBD5E1; box-shadow:0 0 0 2px #CBD5E1; }
-      .tl-period { font-size:0.75rem; color:#94A3B8; font-weight:600; margin-bottom:0.2rem; display:flex; align-items:center; gap:0.5rem; }
-      .badge-now { font-size:0.65rem; background:linear-gradient(135deg,#6366F1,#818CF8); color:#fff; padding:2px 8px; border-radius:999px; font-weight:700; }
-      .tl-role { font-family:'Syne',sans-serif; font-size:0.98rem; font-weight:700; margin-bottom:0.15rem; }
-      .tl-place { font-size:0.85rem; color:#94A3B8; font-weight:500; margin-bottom:0.3rem; }
-      .tl-place i { font-size:0.75rem; margin-right:0.2rem; color:#F97316; }
-      .tl-desc { font-size:0.85rem; color:#64748B; line-height:1.65; }
-      .research-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
-      .rcard { background:#fff; border:1.5px solid #E2E8F0; border-radius:14px; padding:1.1rem 1.3rem; display:flex; gap:0.9rem; align-items:flex-start; transition:all 0.3s; }
-      .rcard:hover { border-color:#6366F1; box-shadow:0 6px 20px rgba(99,102,241,0.1); transform:translateY(-3px); }
-      .rcard-icon { width:40px; height:40px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1rem; flex-shrink:0; }
-      .rcard h4 { font-family:'Syne',sans-serif; font-size:0.9rem; font-weight:700; margin-bottom:0.25rem; line-height:1.3; }
-      .rcard p { font-size:0.8rem; color:#94A3B8; line-height:1.55; margin:0; }
-      .chips-wrap { display:flex; flex-wrap:wrap; gap:0.6rem; }
-      .skill-chip { display:inline-flex; align-items:center; gap:0.35rem; padding:6px 14px; background:#fff; border:1.5px solid #E2E8F0; border-radius:999px; font-size:0.8rem; font-weight:600; color:#334155; transition:all 0.2s; }
-      .skill-chip i { font-size:0.78rem; color:#6366F1; }
-      .skill-chip:hover { border-color:#6366F1; color:#6366F1; background:#EEF2FF; }
-      @media(max-width:640px){ .ah-inner{flex-direction:column;align-items:center;text-align:center;} .social-stack{align-items:center;} .research-grid{grid-template-columns:1fr;} }
-    </style>
+title: "About Me"
 ---
 
-```{=html}
-<div class="about-hero fade-up">
-  <div class="ah-inner">
-    <div class="ah-left">
-      <div class="avatar-ring">
-        <div class="avatar-inner">
-          <i class="fas fa-user"></i>
-          <!-- Thay bằng: <img src="img/avatar.jpg" style="width:100%;height:100%;object-fit:cover;"> -->
-        </div>
-      </div>
-      <div class="social-stack">
-        <a href="mailto:email@example.com" class="slink"><i class="fas fa-envelope"></i> email@example.com</a>
-        <a href="https://github.com/username" class="slink"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://linkedin.com/in/username" class="slink"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-        <a href="https://orcid.org/0000-0000-0000-0000" class="slink"><i class="fab fa-orcid"></i> ORCID</a>
-        <a href="https://scholar.google.com" class="slink"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-      </div>
-    </div>
-    <div class="ah-right">
-      <div class="section-label">About</div>
-      <h1>[Họ và tên đầy đủ]</h1>
-      <p class="ah-title">[Chức danh — ví dụ: Lecturer · Researcher · Data Scientist]</p>
-      <p class="ah-affil"><i class="fas fa-building-columns"></i> [Tên khoa / bộ môn] · [Tên trường / tổ chức]</p>
-      <div class="ah-bio">
-        <p>Đây là phần giới thiệu ngắn — 2–3 câu mô tả bạn là ai, bạn làm gì và điều gì thúc đẩy bạn trong công việc nghiên cứu và giảng dạy.</p>
-        <p>Đoạn thứ hai đề cập lý do bạn tạo website — chia sẻ kiến thức, kết nối cộng đồng nghiên cứu, hoặc giới thiệu các khoá đào tạo.</p>
-      </div>
-      <!-- Thêm file cv.pdf thật vào thư mục gốc trước khi deploy -->
-      <a href="cv.pdf" class="cv-btn" download><i class="fas fa-file-arrow-down"></i> Tải CV (PDF)</a>
-    </div>
-  </div>
-</div>
+::: {.grid}
+::: {.g-col-4}
+![](img/avatar.jpg){.avatar}
 
-<div class="pw">
+**[email@example.com](mailto:email@example.com)**
 
-  <!-- EDUCATION -->
-  <div class="sec-block fade-up fade-up-1">
-    <div class="sec-block-title">
-      <div class="sec-block-icon" style="background:#EEF2FF;color:#6366F1;"><i class="fas fa-graduation-cap"></i></div>
-      <h2>Chuyên môn đào tạo</h2>
-    </div>
-    <div class="tl">
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">Tiến sĩ (PhD) — [Tên ngành]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên trường], [Quốc gia]</div>
-        <div class="tl-desc">Luận án: <em>"[Tiêu đề luận án]"</em>. Người hướng dẫn: [Tên GS].</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-muted"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">Thạc sĩ (MSc) — [Tên ngành]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên trường], [Quốc gia]</div>
-        <div class="tl-desc">Luận văn: <em>"[Tiêu đề luận văn]"</em>.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-muted"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">Cử nhân (BSc) — [Tên ngành]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên trường], [Quốc gia]</div>
-      </div>
-    </div>
-  </div>
+[GitHub](https://github.com/username) · [LinkedIn](https://linkedin.com/in/username)
+[ORCID](https://orcid.org/0000-0000-0000-0000) · [Google Scholar](https://scholar.google.com)
 
-  <!-- CURRENT POSITION -->
-  <div class="sec-block fade-up fade-up-2">
-    <div class="sec-block-title">
-      <div class="sec-block-icon" style="background:linear-gradient(135deg,#EEF2FF,#FFF7ED);color:#6366F1;"><i class="fas fa-briefcase"></i></div>
-      <h2>Vị trí hiện tại</h2>
-    </div>
-    <div class="tl">
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-cur"></div>
-        <div class="tl-period">20XX – nay <span class="badge-now">Hiện tại</span></div>
-        <div class="tl-role">[Chức danh — ví dụ: Giảng viên / Nghiên cứu viên]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên khoa / bộ môn], [Tên trường], [Quốc gia]</div>
-        <div class="tl-desc">Mô tả ngắn nhiệm vụ hiện tại — giảng dạy, nghiên cứu, dự án đang thực hiện.</div>
-      </div>
-    </div>
-  </div>
+[Tải CV (PDF)](cv.pdf){.btn-primary}
+:::
+::: {.g-col-8}
+[About]{.label}
 
-  <!-- PAST POSITIONS -->
-  <div class="sec-block fade-up fade-up-2">
-    <div class="sec-block-title">
-      <div class="sec-block-icon" style="background:#F8FAFC;color:#64748B;"><i class="fas fa-clock-rotate-left"></i></div>
-      <h2>Các vị trí đã qua</h2>
-    </div>
-    <div class="tl">
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-muted"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">[Chức danh — ví dụ: Postdoctoral Researcher]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên tổ chức / trường], [Quốc gia]</div>
-        <div class="tl-desc">Mô tả ngắn về công việc và thành tích.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-muted"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">[Chức danh — ví dụ: Research / Teaching Assistant]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên tổ chức / trường], [Quốc gia]</div>
-        <div class="tl-desc">Mô tả ngắn về công việc và thành tích.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot tl-dot-muted"></div>
-        <div class="tl-period">20XX – 20XX</div>
-        <div class="tl-role">[Chức danh — ví dụ: Data Analyst / Consultant]</div>
-        <div class="tl-place"><i class="fas fa-location-dot"></i>[Tên công ty / tổ chức], [Quốc gia]</div>
-        <div class="tl-desc">Mô tả ngắn về công việc và thành tích.</div>
-      </div>
-    </div>
-  </div>
+# [Họ và tên đầy đủ]
 
-  <!-- RESEARCH INTERESTS -->
-  <div class="sec-block fade-up fade-up-3">
-    <div class="sec-block-title">
-      <div class="sec-block-icon" style="background:#EEF2FF;color:#6366F1;"><i class="fas fa-microscope"></i></div>
-      <h2>Research Interests</h2>
-    </div>
-    <div class="research-grid">
-      <div class="rcard">
-        <div class="rcard-icon" style="background:#EEF2FF;"><i class="fas fa-flask" style="color:#6366F1;"></i></div>
-        <div><h4>Khoa học cảm quan & người tiêu dùng</h4><p>Preference mapping, hành vi lựa chọn thực phẩm, phân tích dữ liệu cảm quan.</p></div>
-      </div>
-      <div class="rcard">
-        <div class="rcard-icon" style="background:#DCFCE7;"><i class="fas fa-chart-line" style="color:#16A34A;"></i></div>
-        <div><h4>Thống kê ứng dụng</h4><p>Mô hình hồi quy, phân tích đa biến, SEM trong nghiên cứu thực phẩm.</p></div>
-      </div>
-      <div class="rcard">
-        <div class="rcard-icon" style="background:#FFF7ED;"><i class="fas fa-utensils" style="color:#F97316;"></i></div>
-        <div><h4>Data Science trong thực phẩm</h4><p>ML và AI vào kiểm soát chất lượng và chuỗi cung ứng thực phẩm.</p></div>
-      </div>
-      <div class="rcard">
-        <div class="rcard-icon" style="background:#FEF9C3;"><i class="fas fa-magnifying-glass-chart" style="color:#CA8A04;"></i></div>
-        <div><h4>Phương pháp nghiên cứu định tính</h4><p>Phỏng vấn sâu, focus group, phân tích nội dung trong nghiên cứu người tiêu dùng.</p></div>
-      </div>
-    </div>
-  </div>
+**[Chức danh — Lecturer · Researcher · Data Scientist]**
 
-  <!-- SKILLS -->
-  <div class="sec-block fade-up fade-up-4">
-    <div class="sec-block-title">
-      <div class="sec-block-icon" style="background:#F8FAFC;color:#64748B;"><i class="fas fa-wrench"></i></div>
-      <h2>Kỹ năng & công cụ</h2>
-    </div>
-    <div class="chips-wrap">
-      <span class="skill-chip"><i class="fab fa-r-project"></i> R / tidyverse</span>
-      <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
-      <span class="skill-chip"><i class="fas fa-file-alt"></i> LaTeX</span>
-      <span class="skill-chip"><i class="fab fa-git-alt"></i> Git / GitHub</span>
-      <span class="skill-chip"><i class="fas fa-chart-bar"></i> ggplot2</span>
-      <span class="skill-chip"><i class="fas fa-table"></i> tidymodels</span>
-      <span class="skill-chip"><i class="fas fa-atom"></i> Quarto</span>
-      <span class="skill-chip"><i class="fas fa-brain"></i> Machine Learning</span>
-      <span class="skill-chip"><i class="fas fa-flask"></i> SensoMineR</span>
-      <span class="skill-chip"><i class="fas fa-project-diagram"></i> SEM</span>
-    </div>
-  </div>
+🏛 [Tên khoa / bộ môn] · [Tên trường / tổ chức]
 
-</div>
-```
+Đây là phần giới thiệu ngắn — 2–3 câu mô tả bạn là ai, bạn làm gì và điều gì thúc đẩy bạn trong công việc nghiên cứu và giảng dạy.
+
+Đoạn thứ hai đề cập lý do bạn tạo website — chia sẻ kiến thức, kết nối cộng đồng nghiên cứu, hoặc giới thiệu các khoá đào tạo.
+:::
+:::
+
+<hr class="divider">
+
+[Education]{.label}
+
+## 🎓 Chuyên môn đào tạo
+
+::: {.timeline}
+### Tiến sĩ (PhD) — [Tên ngành]
+[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+
+Luận án: *"[Tiêu đề luận án]"*. Người hướng dẫn: [Tên GS].
+
+### Thạc sĩ (MSc) — [Tên ngành]
+[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+
+Luận văn: *"[Tiêu đề luận văn]"*.
+
+### Cử nhân (BSc) — [Tên ngành]
+[20XX – 20XX · [Tên trường], [Quốc gia]]{.when}
+:::
+
+<hr class="divider">
+
+[Experience]{.label}
+
+## 💼 Vị trí hiện tại
+
+::: {.timeline}
+### [Chức danh — Giảng viên / Nghiên cứu viên]
+[20XX – nay · [Tên khoa], [Tên trường], [Quốc gia]]{.when}
+
+Mô tả ngắn nhiệm vụ hiện tại — giảng dạy, nghiên cứu, dự án đang thực hiện.
+:::
+
+## 🕓 Các vị trí đã qua
+
+::: {.timeline}
+### [Postdoctoral Researcher]
+[20XX – 20XX · [Tên tổ chức], [Quốc gia]]{.when}
+
+Mô tả ngắn về công việc và thành tích.
+
+### [Research / Teaching Assistant]
+[20XX – 20XX · [Tên tổ chức], [Quốc gia]]{.when}
+
+Mô tả ngắn về công việc và thành tích.
+
+### [Data Analyst / Consultant]
+[20XX – 20XX · [Tên công ty], [Quốc gia]]{.when}
+
+Mô tả ngắn về công việc và thành tích.
+:::
+
+<hr class="divider">
+
+[Research]{.label}
+
+## 🔬 Research Interests
+
+::: {.grid}
+::: {.g-col-6}
+::: {.card-soft}
+[🧪]{.ico}
+#### Khoa học cảm quan & người tiêu dùng
+Preference mapping, hành vi lựa chọn thực phẩm, phân tích dữ liệu cảm quan.
+:::
+:::
+::: {.g-col-6}
+::: {.card-soft}
+[📈]{.ico}
+#### Thống kê ứng dụng
+Mô hình hồi quy, phân tích đa biến, SEM trong nghiên cứu thực phẩm.
+:::
+:::
+::: {.g-col-6}
+::: {.card-soft}
+[🍎]{.ico}
+#### Data Science trong thực phẩm
+ML và AI vào kiểm soát chất lượng và chuỗi cung ứng thực phẩm.
+:::
+:::
+::: {.g-col-6}
+::: {.card-soft}
+[🔍]{.ico}
+#### Phương pháp nghiên cứu định tính
+Phỏng vấn sâu, focus group, phân tích nội dung trong nghiên cứu người tiêu dùng.
+:::
+:::
+:::
+
+<hr class="divider">
+
+[Skills]{.label}
+
+## 🛠 Kỹ năng & công cụ
+
+[R / tidyverse]{.chip} [Python]{.chip} [LaTeX]{.chip} [Git / GitHub]{.chip} [ggplot2]{.chip} [tidymodels]{.chip} [Quarto]{.chip} [Machine Learning]{.chip} [SensoMineR]{.chip} [SEM]{.chip}

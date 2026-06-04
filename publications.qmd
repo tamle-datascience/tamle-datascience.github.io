@@ -1,187 +1,68 @@
 ---
-title: ""
-page-layout: full
-include-in-header:
-  text: |
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-    <style>
-      .page-hero { background:linear-gradient(135deg,#FFF7ED 0%,#F8FAFC 60%); padding:3.5rem 2rem 3rem; }
-      .page-hero-inner { max-width:900px; margin:0 auto; }
-      .page-hero h1 { font-family:'Syne',sans-serif; font-size:2.5rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:0.5rem; }
-      .page-hero p { color:#64748B; font-size:0.96rem; }
-      .stats-strip { max-width:900px; margin:2rem auto 0; padding:0 2rem; display:flex; gap:1rem; flex-wrap:wrap; }
-      .sstat { background:#fff; border:1.5px solid #E2E8F0; border-radius:14px; padding:1rem 1.5rem; display:flex; align-items:center; gap:0.8rem; flex:1; min-width:120px; transition:all 0.25s; }
-      .sstat:hover { border-color:#6366F1; box-shadow:0 4px 16px rgba(99,102,241,0.1); }
-      .sstat-icon { width:36px; height:36px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0; }
-      .sstat-num { font-family:'Syne',sans-serif; font-size:1.4rem; font-weight:800; color:#0D1117; line-height:1; }
-      .sstat-lbl { font-size:0.72rem; color:#94A3B8; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; }
-      .filter-row { max-width:900px; margin:1.5rem auto 0; padding:0 2rem; display:flex; gap:0.5rem; flex-wrap:wrap; }
-      .chip { padding:6px 16px; border-radius:999px; border:1.5px solid #E2E8F0; background:#fff; color:#64748B; font-size:0.8rem; font-weight:600; cursor:pointer; font-family:'Manrope',sans-serif; transition:all 0.2s; }
-      .chip:hover { border-color:#6366F1; color:#6366F1; }
-      .chip.active { background:#6366F1; color:#fff; border-color:#6366F1; }
-      .pw { max-width:900px; margin:0 auto; padding:0 2rem; }
-      .sec-head { display:flex; align-items:center; gap:0.8rem; margin:2.5rem 0 1.2rem; }
-      .sec-head h2 { font-family:'Syne',sans-serif; font-size:1.15rem; font-weight:700; margin:0; }
-      .sec-head-icon { width:34px; height:34px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0; }
-      .pub-card { background:#fff; border:1.5px solid #E2E8F0; border-radius:16px; padding:1.4rem 1.6rem; margin-bottom:1rem; transition:all 0.3s; }
-      .pub-card:hover { border-color:#6366F1; box-shadow:0 8px 24px rgba(99,102,241,0.1); transform:translateY(-2px); }
-      .pub-card.hidden { display:none; }
-      .apa { font-size:0.9rem; line-height:1.7; padding-left:1.5rem; text-indent:-1.5rem; font-weight:400; color:#334155; margin-bottom:1rem; }
-      .apa em { font-style:italic; }
-      .apa a { color:#6366F1; text-decoration:none; word-break:break-all; }
-      .apa a:hover { text-decoration:underline; }
-      .abs-toggle { background:none; border:none; color:#6366F1; font-size:0.8rem; font-family:'Manrope',sans-serif; font-weight:600; cursor:pointer; padding:0; display:flex; align-items:center; gap:0.3rem; margin-bottom:0.5rem; transition:opacity 0.2s; }
-      .abs-toggle i { font-size:0.7rem; transition:transform 0.25s; }
-      .abs-toggle.open i { transform:rotate(180deg); }
-      .abs-toggle:hover { opacity:0.7; }
-      .abs-body { display:none; font-size:0.86rem; color:#64748B; line-height:1.7; border-left:3px solid #6366F1; padding:0.5rem 0 0.5rem 1rem; margin-bottom:0.8rem; background:#EEF2FF; border-radius:0 8px 8px 0; }
-      .abs-body.open { display:block; }
-      .pub-badges { display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.8rem; }
-      .pbadge { font-size:0.72rem; padding:4px 12px; border-radius:999px; font-weight:600; text-decoration:none; display:inline-flex; align-items:center; gap:0.3rem; transition:opacity 0.2s; }
-      .pbadge:hover { opacity:0.75; }
-      .pb-doi { background:#EEF2FF; color:#6366F1; }
-      .pb-pdf { background:#FFF7ED; color:#F97316; }
-      .pb-code { background:#F1F5F9; color:#475569; }
-      .pb-oa { background:#DCFCE7; color:#16A34A; }
-    </style>
+title: "Publications"
+subtitle: "Danh sách bài báo khoa học, chương sách và sách đã xuất bản. Trích dẫn theo định dạng APA."
 ---
 
-```{=html}
-<div class="page-hero fade-up">
-  <div class="page-hero-inner">
-    <div class="section-label">Research Output</div>
-    <h1>Publications</h1>
-    <p>Danh sách bài báo khoa học, chương sách và sách đã xuất bản. Trích dẫn theo định dạng APA.</p>
-  </div>
-</div>
+[Bài báo khoa học]{.label}
 
-<div class="stats-strip fade-up fade-up-1">
-  <div class="sstat">
-    <div class="sstat-icon" style="background:#EEF2FF;color:#6366F1;"><i class="fas fa-file-lines"></i></div>
-    <div><div class="sstat-num">3</div><div class="sstat-lbl">Bài báo</div></div>
-  </div>
-  <div class="sstat">
-    <div class="sstat-icon" style="background:#FFF7ED;color:#F97316;"><i class="fas fa-bookmark"></i></div>
-    <div><div class="sstat-num">2</div><div class="sstat-lbl">Chương sách</div></div>
-  </div>
-  <div class="sstat">
-    <div class="sstat-icon" style="background:#DCFCE7;color:#16A34A;"><i class="fas fa-book"></i></div>
-    <div><div class="sstat-num">1</div><div class="sstat-lbl">Sách</div></div>
-  </div>
-</div>
+## 📄 Bài báo
 
-<div class="filter-row fade-up fade-up-1">
-  <button class="chip active" onclick="filterPub(this,'all')">Tất cả</button>
-  <button class="chip" onclick="filterPub(this,'journal')">Bài báo</button>
-  <button class="chip" onclick="filterPub(this,'chapter')">Chương sách</button>
-  <button class="chip" onclick="filterPub(this,'book')">Sách</button>
-</div>
+::: {.pub}
+[Họ tên tác giả, A., & Họ tên tác giả, B. (202X). *Tiêu đề bài báo về ứng dụng data science trong công nghiệp thực phẩm.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
 
-<div class="pw" style="padding-bottom:4rem;">
+[DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Open Access](#)
 
-  <!-- JOURNAL -->
-  <div class="sec-head" data-section="journal">
-    <div class="sec-head-icon" style="background:#EEF2FF;color:#6366F1;"><i class="fas fa-file-lines"></i></div>
-    <h2>Bài báo khoa học</h2>
-  </div>
+**Abstract.** Tóm tắt mục tiêu nghiên cứu, phương pháp, kết quả và kết luận trong khoảng 150–250 từ. Bạn hãy dán nội dung thực tế vào đây.
+:::
 
-  <div class="pub-card fade-up fade-up-1" data-type="journal">
-    <p class="apa">Họ tên tác giả, A., &amp; Họ tên tác giả, B. (202X). <em>Tiêu đề bài báo về ứng dụng data science trong công nghiệp thực phẩm.</em> <em>Tên tạp chí, Vol</em>(Issue), trang–trang. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Abstract của bài báo. Tóm tắt mục tiêu nghiên cứu, phương pháp, kết quả và kết luận trong khoảng 150–250 từ. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-      <a href="#" class="pbadge pb-pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-      <span class="pbadge pb-oa"><i class="fas fa-lock-open"></i> Open Access</span>
-    </div>
-  </div>
+::: {.pub}
+[Họ tên tác giả, A., Họ tên tác giả, C., & Họ tên tác giả, D. (202X). *Tiêu đề bài báo về machine learning và phân tích dữ liệu với R.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
 
-  <div class="pub-card fade-up fade-up-2" data-type="journal">
-    <p class="apa">Họ tên tác giả, A., Họ tên tác giả, C., &amp; Họ tên tác giả, D. (202X). <em>Tiêu đề bài báo về machine learning và phân tích dữ liệu với R.</em> <em>Tên tạp chí, Vol</em>(Issue), trang–trang. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Abstract của bài báo. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-      <a href="#" class="pbadge pb-pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="#" class="pbadge pb-code"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
+[DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Code](https://github.com/username)
 
-  <div class="pub-card fade-up fade-up-3" data-type="journal">
-    <p class="apa">Họ tên tác giả, A. (202X). <em>Tiêu đề bài báo về phân tích thống kê với Python.</em> <em>Tên tạp chí, Vol</em>(Issue), trang–trang. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Abstract của bài báo. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-      <a href="#" class="pbadge pb-pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-    </div>
-  </div>
+**Abstract.** Bạn hãy dán nội dung abstract thực tế vào đây.
+:::
 
-  <!-- CHAPTERS -->
-  <div class="sec-head" data-section="chapter">
-    <div class="sec-head-icon" style="background:#FFF7ED;color:#F97316;"><i class="fas fa-bookmark"></i></div>
-    <h2>Chương sách</h2>
-  </div>
+::: {.pub}
+[Họ tên tác giả, A. (202X). *Tiêu đề bài báo về phân tích thống kê với Python.* **Tên tạp chí**, Vol(Issue), trang–trang.]{.apa}
 
-  <div class="pub-card fade-up fade-up-1" data-type="chapter">
-    <p class="apa">Họ tên tác giả, A. (202X). Tiêu đề chương sách. In Tên biên tập viên (Ed.), <em>Tên quyển sách</em> (trang XX–XX). Nhà xuất bản. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-      <a href="#" class="pbadge pb-pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-    </div>
-  </div>
+[DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#)
 
-  <div class="pub-card fade-up fade-up-2" data-type="chapter">
-    <p class="apa">Họ tên tác giả, A., &amp; Họ tên tác giả, B. (202X). Tiêu đề chương sách thứ hai. In Tên biên tập viên (Ed.), <em>Tên quyển sách</em> (trang XX–XX). Nhà xuất bản. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-    </div>
-  </div>
+**Abstract.** Bạn hãy dán nội dung abstract thực tế vào đây.
+:::
 
-  <!-- BOOKS -->
-  <div class="sec-head" data-section="book">
-    <div class="sec-head-icon" style="background:#DCFCE7;color:#16A34A;"><i class="fas fa-book"></i></div>
-    <h2>Sách</h2>
-  </div>
+<hr class="divider">
 
-  <div class="pub-card fade-up fade-up-1" data-type="book">
-    <p class="apa">Họ tên tác giả, A. (202X). <em>Tên quyển sách của bạn.</em> Nhà xuất bản. <a href="#">https://doi.org/10.xxxx/xxxxxx</a></p>
-    <button class="abs-toggle" onclick="toggleAbs(this)"><i class="fas fa-chevron-down"></i> Xem abstract</button>
-    <div class="abs-body">Tóm tắt nội dung quyển sách. Bạn hãy dán nội dung thực tế vào đây.</div>
-    <div class="pub-badges">
-      <a href="#" class="pbadge pb-doi"><i class="fas fa-link"></i> DOI</a>
-      <a href="#" class="pbadge pb-pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="#" class="pbadge pb-code"><i class="fab fa-github"></i> Code</a>
-      <span class="pbadge pb-oa"><i class="fas fa-lock-open"></i> Open Access</span>
-    </div>
-  </div>
+[Chương sách]{.label}
 
-</div>
+## 🔖 Chương sách
 
-<script>
-  function toggleAbs(btn) {
-    const body = btn.nextElementSibling;
-    body.classList.toggle('open');
-    btn.classList.toggle('open');
-    btn.innerHTML = body.classList.contains('open')
-      ? '<i class="fas fa-chevron-down"></i> Ẩn abstract'
-      : '<i class="fas fa-chevron-down"></i> Xem abstract';
-  }
-  function filterPub(btn, type) {
-    document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    document.querySelectorAll('.pub-card').forEach(c => {
-      c.classList.toggle('hidden', type !== 'all' && c.dataset.type !== type);
-    });
-    ['journal','chapter','book'].forEach(s => {
-      const h = document.querySelector(`.sec-head[data-section="${s}"]`);
-      if (h) h.style.display = (type === 'all' || type === s) ? 'flex' : 'none';
-    });
-  }
-</script>
-```
+::: {.pub}
+[Họ tên tác giả, A. (202X). Tiêu đề chương sách. In Tên biên tập viên (Ed.), *Tên quyển sách* (trang XX–XX). Nhà xuất bản.]{.apa}
+
+[DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#)
+
+**Abstract.** Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.
+:::
+
+::: {.pub}
+[Họ tên tác giả, A., & Họ tên tác giả, B. (202X). Tiêu đề chương sách thứ hai. In Tên biên tập viên (Ed.), *Tên quyển sách* (trang XX–XX). Nhà xuất bản.]{.apa}
+
+[DOI](https://doi.org/10.xxxx/xxxxxx)
+
+**Abstract.** Tóm tắt nội dung chương sách. Bạn hãy dán nội dung thực tế vào đây.
+:::
+
+<hr class="divider">
+
+[Sách]{.label}
+
+## 📕 Sách
+
+::: {.pub}
+[Họ tên tác giả, A. (202X). *Tên quyển sách của bạn.* Nhà xuất bản.]{.apa}
+
+[DOI](https://doi.org/10.xxxx/xxxxxx) · [PDF](#) · [Code](https://github.com/username) · [Open Access](#)
+
+**Abstract.** Tóm tắt nội dung quyển sách. Bạn hãy dán nội dung thực tế vào đây.
+:::

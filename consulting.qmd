@@ -1,270 +1,66 @@
 ---
-title: ""
-page-layout: full
-include-in-header:
-  text: |
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-    <style>
-      .page-hero { background:linear-gradient(135deg,#DCFCE7 0%,#F8FAFC 60%); padding:3.5rem 2rem 3rem; }
-      .page-hero-inner { max-width:900px; margin:0 auto; }
-      .page-hero h1 { font-family:'Syne',sans-serif; font-size:2.5rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:0.5rem; }
-      .page-hero p { color:#64748B; font-size:0.96rem; }
-      .pw { max-width:900px; margin:0 auto; padding:0 2rem; }
-      .aud-row { display:flex; gap:0.6rem; flex-wrap:wrap; margin:2rem auto 0; max-width:900px; padding:0 2rem; align-items:center; }
-      .aud-lbl { font-size:0.82rem; color:#94A3B8; font-weight:600; }
-      .achip { display:flex; align-items:center; gap:0.4rem; padding:7px 16px; border-radius:999px; border:1.5px solid #E2E8F0; background:#fff; color:#64748B; font-size:0.82rem; font-weight:600; cursor:pointer; font-family:'Manrope',sans-serif; transition:all 0.2s; }
-      .achip:hover { border-color:#16A34A; color:#16A34A; }
-      .achip.active { background:#16A34A; color:#fff; border-color:#16A34A; box-shadow:0 4px 12px rgba(22,163,74,0.3); }
-      .info-banner { background:#EEF2FF; border:1.5px solid #C7D2FE; border-radius:14px; padding:1rem 1.4rem; font-size:0.88rem; color:#4338CA; margin:1.5rem 0; display:flex; gap:0.8rem; align-items:flex-start; }
-      .info-banner i { margin-top:3px; flex-shrink:0; }
-      .info-banner a { color:#6366F1; font-weight:600; }
-      .course-card { background:#fff; border:1.5px solid #E2E8F0; border-radius:20px; overflow:hidden; margin-bottom:1.2rem; transition:all 0.3s cubic-bezier(.16,1,.3,1); }
-      .course-card:hover { border-color:#6366F1; box-shadow:0 10px 40px rgba(99,102,241,0.12); transform:translateY(-4px); }
-      .course-card.hidden { display:none; }
-      .cc-top { display:flex; align-items:flex-start; gap:1.2rem; padding:1.4rem 1.6rem 1rem; }
-      .cc-icon { width:52px; height:52px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:1.4rem; flex-shrink:0; }
-      .cc-title { font-family:'Syne',sans-serif; font-size:1.05rem; font-weight:700; line-height:1.3; margin-bottom:0.3rem; }
-      .cc-meta { display:flex; gap:1rem; flex-wrap:wrap; font-size:0.78rem; color:#94A3B8; font-weight:500; }
-      .cc-meta span { display:flex; align-items:center; gap:0.3rem; }
-      .cc-meta i { color:#6366F1; }
-      .aud-chips { display:flex; gap:0.4rem; margin-top:0.5rem; }
-      .at { font-size:0.68rem; padding:2px 10px; border-radius:999px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; }
-      .at-uni { background:#EEF2FF; color:#6366F1; }
-      .at-corp { background:#DCFCE7; color:#16A34A; }
-      .cc-body { padding:0 1.6rem 1rem calc(1.6rem + 52px + 1.2rem); }
-      .cc-body p { font-size:0.88rem; color:#64748B; line-height:1.7; margin-bottom:0.8rem; }
-      .topics-btn { background:none; border:none; color:#6366F1; font-size:0.8rem; font-family:'Manrope',sans-serif; font-weight:700; cursor:pointer; padding:0; display:flex; align-items:center; gap:0.3rem; }
-      .topics-btn i { font-size:0.7rem; transition:transform 0.25s; }
-      .topics-btn.open i { transform:rotate(180deg); }
-      .topics-list { display:none; margin-top:0.8rem; background:#F8FAFC; border-radius:10px; padding:1rem 1.2rem; }
-      .topics-list.open { display:block; }
-      .topics-list ul { list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:0.4rem 1rem; padding:0; }
-      .topics-list ul li { font-size:0.83rem; color:#475569; display:flex; align-items:baseline; gap:0.4rem; }
-      .topics-list ul li::before { content:"→"; color:#6366F1; font-size:0.72rem; flex-shrink:0; }
-      .cc-footer { border-top:1px solid #F1F5F9; padding:0.9rem 1.6rem; background:#FAFAFA; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; }
-      .modes { display:flex; gap:0.4rem; flex-wrap:wrap; }
-      .mode-tag { font-size:0.72rem; padding:4px 12px; border-radius:999px; background:#F1F5F9; color:#475569; font-weight:600; display:flex; align-items:center; gap:0.3rem; }
-      .contact-btn { display:inline-flex; align-items:center; gap:0.4rem; padding:0.45rem 1.2rem; background:#6366F1; color:#fff; border-radius:999px; text-decoration:none; font-size:0.82rem; font-weight:700; transition:all 0.2s; box-shadow:0 3px 10px rgba(99,102,241,0.3); }
-      .contact-btn:hover { background:#4F46E5; transform:translateY(-1px); color:#fff; text-decoration:none; }
-      .cta-block { background:linear-gradient(135deg,#0D1117,#1E293B); border-radius:20px; padding:2.5rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap; margin:2.5rem 0 4rem; }
-      .cta-block h3 { font-family:'Syne',sans-serif; font-size:1.3rem; font-weight:800; color:#fff; margin-bottom:0.3rem; }
-      .cta-block p { color:#94A3B8; font-size:0.9rem; margin:0; }
-      .cta-btn { display:inline-flex; align-items:center; gap:0.5rem; padding:0.75rem 1.8rem; background:linear-gradient(135deg,#6366F1,#F97316); color:#fff; border-radius:999px; text-decoration:none; font-size:0.9rem; font-weight:700; white-space:nowrap; transition:all 0.25s; box-shadow:0 6px 20px rgba(99,102,241,0.4); }
-      .cta-btn:hover { transform:translateY(-2px); box-shadow:0 10px 28px rgba(99,102,241,0.5); color:#fff; text-decoration:none; }
-      @media(max-width:600px){ .cc-body{padding-left:1.6rem;} .topics-list ul{grid-template-columns:1fr;} .cta-block{flex-direction:column;} }
-    </style>
+title: "Consulting & Training"
+subtitle: "Khoá đào tạo chuyên sâu về thống kê, khoa học dữ liệu và nghiên cứu người tiêu dùng — cho trường đại học và doanh nghiệp."
 ---
 
-```{=html}
-<div class="page-hero fade-up">
-  <div class="page-hero-inner">
-    <div class="section-label" style="color:#16A34A;">Teaching & Training</div>
-    <h1>Consulting</h1>
-    <p>Khoá đào tạo chuyên sâu về thống kê, khoa học dữ liệu và nghiên cứu người tiêu dùng — cho trường đại học và doanh nghiệp.</p>
-  </div>
-</div>
+::: {.banner}
+**Hình thức linh hoạt:** Tất cả khoá học có thể điều chỉnh thời lượng, nội dung và ngôn ngữ (Tiếng Việt / Tiếng Anh) theo nhu cầu. Liên hệ: [email@example.com](mailto:email@example.com)
+:::
 
-<div class="aud-row fade-up fade-up-1">
-  <span class="aud-lbl">Đối tượng:</span>
-  <button class="achip active" onclick="filterAud(this,'all')"><i class="fas fa-globe"></i> Tất cả</button>
-  <button class="achip" onclick="filterAud(this,'uni')"><i class="fas fa-graduation-cap"></i> Đại học</button>
-  <button class="achip" onclick="filterAud(this,'corp')"><i class="fas fa-building"></i> Doanh nghiệp</button>
-</div>
+## 📊 Statistics using R
 
-<div class="pw fade-up fade-up-2" style="padding-top:1.5rem; padding-bottom:0;">
-  <div class="info-banner">
-    <i class="fas fa-circle-info"></i>
-    <span><strong>Linh hoạt về hình thức:</strong> Tất cả khoá học có thể điều chỉnh thời lượng, nội dung và ngôn ngữ (Tiếng Việt / Tiếng Anh) theo nhu cầu.
-    Liên hệ: <a href="mailto:email@example.com">email@example.com</a></span>
-  </div>
-</div>
+::: {.card-soft}
+[R]{.tag} [Đại học]{.tag} [Doanh nghiệp]{.tag-green .tag} · ⏱ 16–32 giờ · 📈 Cơ bản → Nâng cao
 
-<div class="pw" style="padding-top:0.5rem; padding-bottom:0;">
+Khoá học nền tảng về thống kê ứng dụng và phân tích dữ liệu bằng R — từ nhập và làm sạch dữ liệu, thống kê mô tả, kiểm định giả thuyết đến trực quan hoá và báo cáo.
 
-  <!-- COURSE 1 -->
-  <div class="course-card fade-up fade-up-1" data-aud="uni corp">
-    <div class="cc-top">
-      <div class="cc-icon" style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE);">
-        <i class="fab fa-r-project" style="color:#6366F1;"></i>
-      </div>
-      <div>
-        <div class="cc-title">Statistics using R</div>
-        <div class="cc-meta">
-          <span><i class="fas fa-clock"></i> 16–32 giờ</span>
-          <span><i class="fas fa-signal"></i> Cơ bản → Nâng cao</span>
-        </div>
-        <div class="aud-chips">
-          <span class="at at-uni">Đại học</span>
-          <span class="at at-corp">Doanh nghiệp</span>
-        </div>
-      </div>
-    </div>
-    <div class="cc-body">
-      <p>Khoá học nền tảng về thống kê ứng dụng và phân tích dữ liệu bằng R — từ nhập và làm sạch dữ liệu, thống kê mô tả, kiểm định giả thuyết đến trực quan hoá và báo cáo.</p>
-      <button class="topics-btn" onclick="toggleTopics(this)"><i class="fas fa-chevron-down"></i> Nội dung chi tiết</button>
-      <div class="topics-list">
-        <ul>
-          <li>Giới thiệu R và RStudio</li><li>Nhập & làm sạch dữ liệu (tidyverse)</li>
-          <li>Thống kê mô tả</li><li>Kiểm định t-test, ANOVA</li>
-          <li>Hồi quy tuyến tính & logistic</li><li>Trực quan hoá với ggplot2</li>
-          <li>Báo cáo với Quarto / R Markdown</li><li>Giới thiệu tidymodels</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cc-footer">
-      <div class="modes">
-        <span class="mode-tag"><i class="fas fa-person-chalkboard"></i> Trực tiếp</span>
-        <span class="mode-tag"><i class="fas fa-laptop"></i> Trực tuyến</span>
-        <span class="mode-tag"><i class="fas fa-building-columns"></i> Workshop</span>
-      </div>
-      <a href="mailto:email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Liên hệ</a>
-    </div>
-  </div>
+**Nội dung chính:** Giới thiệu R & RStudio · tidyverse · Thống kê mô tả · t-test, ANOVA · Hồi quy tuyến tính & logistic · ggplot2 · Báo cáo với Quarto · Giới thiệu tidymodels.
 
-  <!-- COURSE 2 -->
-  <div class="course-card fade-up fade-up-2" data-aud="uni corp">
-    <div class="cc-top">
-      <div class="cc-icon" style="background:linear-gradient(135deg,#DCFCE7,#86EFAC);">
-        <i class="fas fa-flask" style="color:#16A34A;"></i>
-      </div>
-      <div>
-        <div class="cc-title">Analyzing Sensory and Consumer Data</div>
-        <div class="cc-meta">
-          <span><i class="fas fa-clock"></i> 16–24 giờ</span>
-          <span><i class="fas fa-signal"></i> Trung bình → Nâng cao</span>
-        </div>
-        <div class="aud-chips">
-          <span class="at at-uni">Đại học</span>
-          <span class="at at-corp">Doanh nghiệp</span>
-        </div>
-      </div>
-    </div>
-    <div class="cc-body">
-      <p>Khoá học chuyên sâu về phân tích dữ liệu cảm quan và người tiêu dùng — từ phân tích mô tả, preference mapping đến phân tích cụm người tiêu dùng với R.</p>
-      <button class="topics-btn" onclick="toggleTopics(this)"><i class="fas fa-chevron-down"></i> Nội dung chi tiết</button>
-      <div class="topics-list">
-        <ul>
-          <li>Thiết kế thí nghiệm cảm quan</li><li>Phân tích mô tả (QDA, Flash Profile)</li>
-          <li>ANOVA cho dữ liệu cảm quan</li><li>Preference mapping (PREFMAP)</li>
-          <li>PCA & Cluster analysis</li><li>Penalty analysis & CATA</li>
-          <li>SensoMineR & FactoMineR</li><li>Báo cáo kết quả</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cc-footer">
-      <div class="modes">
-        <span class="mode-tag"><i class="fas fa-person-chalkboard"></i> Trực tiếp</span>
-        <span class="mode-tag"><i class="fas fa-laptop"></i> Trực tuyến</span>
-      </div>
-      <a href="mailto:email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Liên hệ</a>
-    </div>
-  </div>
+[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+:::
 
-  <!-- COURSE 3 -->
-  <div class="course-card fade-up fade-up-3" data-aud="uni">
-    <div class="cc-top">
-      <div class="cc-icon" style="background:linear-gradient(135deg,#FEF9C3,#FDE047);">
-        <i class="fas fa-magnifying-glass-chart" style="color:#CA8A04;"></i>
-      </div>
-      <div>
-        <div class="cc-title">Qualitative and Quantitative Methods in Consumer Science</div>
-        <div class="cc-meta">
-          <span><i class="fas fa-clock"></i> 24–45 giờ</span>
-          <span><i class="fas fa-signal"></i> Cơ bản → Nâng cao</span>
-        </div>
-        <div class="aud-chips">
-          <span class="at at-uni">Đại học</span>
-        </div>
-      </div>
-    </div>
-    <div class="cc-body">
-      <p>Khoá học phương pháp luận nghiên cứu trong khoa học người tiêu dùng — kết hợp định tính và định lượng. Phù hợp cho sinh viên, học viên cao học và nghiên cứu sinh.</p>
-      <button class="topics-btn" onclick="toggleTopics(this)"><i class="fas fa-chevron-down"></i> Nội dung chi tiết</button>
-      <div class="topics-list">
-        <ul>
-          <li>Triết học nghiên cứu</li><li>Phỏng vấn sâu & Focus group</li>
-          <li>Phân tích nội dung định tính</li><li>Thiết kế bảng câu hỏi</li>
-          <li>Thang đo Likert & semantic differential</li><li>SEM</li>
-          <li>Mixed methods research</li><li>Đạo đức nghiên cứu</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cc-footer">
-      <div class="modes">
-        <span class="mode-tag"><i class="fas fa-person-chalkboard"></i> Trực tiếp</span>
-        <span class="mode-tag"><i class="fas fa-book-open"></i> Học phần chính quy</span>
-      </div>
-      <a href="mailto:email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Liên hệ</a>
-    </div>
-  </div>
+## 🔬 Analyzing Sensory and Consumer Data
 
-  <!-- COURSE 4 -->
-  <div class="course-card fade-up fade-up-4" data-aud="corp uni">
-    <div class="cc-top">
-      <div class="cc-icon" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA);">
-        <i class="fas fa-utensils" style="color:#F97316;"></i>
-      </div>
-      <div>
-        <div class="cc-title">Application of Data Science in Food Industry</div>
-        <div class="cc-meta">
-          <span><i class="fas fa-clock"></i> 8–16 giờ</span>
-          <span><i class="fas fa-signal"></i> Cơ bản → Trung bình</span>
-        </div>
-        <div class="aud-chips">
-          <span class="at at-corp">Doanh nghiệp</span>
-          <span class="at at-uni">Đại học</span>
-        </div>
-      </div>
-    </div>
-    <div class="cc-body">
-      <p>Khoá học thực tiễn về ứng dụng data science trong ngành thực phẩm — từ kiểm soát chất lượng, tối ưu hoá sản phẩm đến phân tích hành vi người tiêu dùng và dự báo chuỗi cung ứng.</p>
-      <button class="topics-btn" onclick="toggleTopics(this)"><i class="fas fa-chevron-down"></i> Nội dung chi tiết</button>
-      <div class="topics-list">
-        <ul>
-          <li>Tổng quan data science trong thực phẩm</li><li>ML trong kiểm soát chất lượng</li>
-          <li>Phân tích hành vi người tiêu dùng</li><li>Dự báo chuỗi cung ứng</li>
-          <li>Text mining: review khách hàng</li><li>Dashboard tự động</li>
-          <li>Case study thực tế</li><li>R & Python trong ngành thực phẩm</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cc-footer">
-      <div class="modes">
-        <span class="mode-tag"><i class="fas fa-person-chalkboard"></i> Trực tiếp</span>
-        <span class="mode-tag"><i class="fas fa-laptop"></i> Trực tuyến</span>
-        <span class="mode-tag"><i class="fas fa-building"></i> In-house</span>
-      </div>
-      <a href="mailto:email@example.com" class="contact-btn"><i class="fas fa-envelope"></i> Liên hệ</a>
-    </div>
-  </div>
+::: {.card-soft}
+[Đại học]{.tag} [Doanh nghiệp]{.tag-green .tag} · ⏱ 16–24 giờ · 📈 Trung bình → Nâng cao
 
-  <!-- CTA -->
-  <div class="cta-block fade-up">
-    <div>
-      <h3>Cần khoá đào tạo riêng?</h3>
-      <p>Tôi thiết kế chương trình theo nhu cầu cụ thể — nội dung, thời lượng và đối tượng học viên.</p>
-    </div>
-    <a href="mailto:email@example.com" class="cta-btn"><i class="fas fa-paper-plane"></i> Gửi yêu cầu</a>
-  </div>
+Khoá học chuyên sâu về phân tích dữ liệu cảm quan và người tiêu dùng — từ phân tích mô tả, preference mapping đến phân tích cụm người tiêu dùng với R.
 
-</div>
+**Nội dung chính:** Thiết kế thí nghiệm cảm quan · QDA · ANOVA cảm quan · Preference mapping (PREFMAP) · PCA · Cluster analysis · Penalty analysis & CATA · SensoMineR & FactoMineR.
 
-<script>
-  function toggleTopics(btn) {
-    const body = btn.nextElementSibling;
-    body.classList.toggle('open');
-    btn.classList.toggle('open');
-    btn.innerHTML = body.classList.contains('open')
-      ? '<i class="fas fa-chevron-down"></i> Ẩn nội dung'
-      : '<i class="fas fa-chevron-down"></i> Nội dung chi tiết';
-  }
-  function filterAud(btn, aud) {
-    document.querySelectorAll('.achip').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    document.querySelectorAll('.course-card').forEach(c => {
-      c.classList.toggle('hidden', aud !== 'all' && !c.dataset.aud.includes(aud));
-    });
-  }
-</script>
-```
+[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+:::
+
+## 🔍 Qualitative and Quantitative Methods in Consumer Science
+
+::: {.card-soft}
+[Đại học]{.tag} · ⏱ 24–45 giờ · 📈 Cơ bản → Nâng cao
+
+Khoá học phương pháp luận nghiên cứu kết hợp định tính và định lượng. Phù hợp cho sinh viên, học viên cao học và nghiên cứu sinh.
+
+**Nội dung chính:** Triết học nghiên cứu · Phỏng vấn sâu & Focus group · Phân tích nội dung định tính · Thiết kế bảng câu hỏi · Thang đo Likert · SEM · Mixed methods · Đạo đức nghiên cứu.
+
+[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+:::
+
+## 🍎 Application of Data Science in Food Industry
+
+::: {.card-soft}
+[Doanh nghiệp]{.tag-green .tag} [Đại học]{.tag} · ⏱ 8–16 giờ · 📈 Cơ bản → Trung bình
+
+Khoá học thực tiễn về ứng dụng data science trong ngành thực phẩm — kiểm soát chất lượng, phân tích hành vi người tiêu dùng và dự báo chuỗi cung ứng.
+
+**Nội dung chính:** Tổng quan data science trong thực phẩm · ML trong kiểm soát chất lượng · Phân tích hành vi người tiêu dùng · Dự báo chuỗi cung ứng · Text mining · Dashboard tự động · Case study thực tế · R & Python.
+
+[Liên hệ đặt khoá](mailto:email@example.com){.btn-primary}
+:::
+
+<hr class="divider">
+
+::: {.card-soft}
+### 📨 Cần khoá đào tạo riêng?
+
+Tôi thiết kế chương trình theo nhu cầu cụ thể của đơn vị bạn — về nội dung, thời lượng và đối tượng học viên.
+
+[Gửi yêu cầu](mailto:email@example.com){.btn-primary}
+:::

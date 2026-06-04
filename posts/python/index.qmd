@@ -1,0 +1,12 @@
+---
+title: "Python cho người dùng R: Những khác biệt cần biết"
+description: "So sánh trực tiếp cú pháp tidyverse với pandas và polars — làm quen Python nhanh dựa trên nền R."
+date: "2024-12-05"
+categories: [Python]
+---
+
+## Giới thiệu
+
+Chuyển từ R sang Python không cần bắt đầu từ đầu. Bài viết so sánh tidyverse với pandas/polars.
+
+> Đây là nội dung mẫu. Bạn hãy thay bằng bài viết thực tế của mình.

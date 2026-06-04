@@ -1,167 +1,105 @@
 ---
 title: ""
-page-layout: full
-include-in-header:
-  text: |
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-    <style>
-      /* HERO */
-      .hero-wrap { padding: 5rem 2rem 4rem; max-width:900px; margin:0 auto; }
-      .hero-badge { display:inline-flex; align-items:center; gap:0.5rem; background:#EEF2FF; color:#6366F1; font-size:0.75rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:6px 14px; border-radius:999px; margin-bottom:1.5rem; }
-      .hero-badge span { width:7px; height:7px; border-radius:50%; background:#6366F1; display:inline-block; animation:pulse 2s infinite; }
-      @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.8)} }
-      .hero-cols { display:flex; gap:3rem; align-items:center; }
-      .hero-text { flex:1; }
-      .hero-text h1 { font-family:'Syne',sans-serif; font-size:3rem; font-weight:800; line-height:1.1; letter-spacing:-0.03em; margin-bottom:1.2rem; }
-      .hero-text p { font-size:1rem; color:#64748B; font-weight:400; max-width:480px; margin-bottom:1.8rem; line-height:1.8; }
-      .hero-btns { display:flex; gap:0.8rem; flex-wrap:wrap; }
-      .hero-avatar-col { flex-shrink:0; }
-      .avatar-ring { width:180px; height:180px; border-radius:50%; background:linear-gradient(135deg,#6366F1,#F97316); padding:3px; box-shadow:0 10px 40px rgba(99,102,241,0.3); }
-      .avatar-inner { width:100%; height:100%; border-radius:50%; background:#EEF2FF; display:flex; align-items:center; justify-content:center; overflow:hidden; }
-      .avatar-inner i { font-size:4rem; color:#6366F1; opacity:0.5; }
-      /* STATS */
-      .stats-row { display:flex; gap:1rem; margin-top:3rem; flex-wrap:wrap; }
-      .stat-box { background:#fff; border:1px solid #E2E8F0; border-radius:14px; padding:1.2rem 1.6rem; flex:1; min-width:130px; transition:all 0.3s; }
-      .stat-box:hover { border-color:#6366F1; box-shadow:0 4px 16px rgba(99,102,241,0.12); transform:translateY(-3px); }
-      .stat-num { font-family:'Syne',sans-serif; font-size:1.8rem; font-weight:800; background:linear-gradient(135deg,#6366F1,#F97316); -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:block; }
-      .stat-lbl { font-size:0.78rem; color:#64748B; font-weight:500; margin-top:0.1rem; }
-      /* BLOG SECTION */
-      .sec-wrap { max-width:900px; margin:0 auto; padding:3rem 2rem; }
-      .sec-top { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:1.8rem; }
-      .sec-top h2 { font-family:'Syne',sans-serif; font-size:1.6rem; font-weight:700; letter-spacing:-0.02em; }
-      .see-all { font-size:0.85rem; color:#6366F1; font-weight:600; text-decoration:none; display:flex; align-items:center; gap:0.3rem; transition:gap 0.2s; }
-      .see-all:hover { gap:0.6rem; }
-      .blog-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; }
-      .bcard { background:#fff; border:1px solid #E2E8F0; border-radius:16px; overflow:hidden; transition:all 0.3s cubic-bezier(.16,1,.3,1); cursor:pointer; }
-      .bcard:hover { border-color:#6366F1; box-shadow:0 8px 30px rgba(99,102,241,0.15); transform:translateY(-5px); }
-      .bcard-thumb { height:110px; display:flex; align-items:center; justify-content:center; font-size:2rem; }
-      .bcard-body { padding:1.1rem; }
-      .bcard-body h3 { font-family:'Syne',sans-serif; font-size:0.92rem; font-weight:700; margin:0.5rem 0 0.4rem; line-height:1.35; }
-      .bcard-body h3 a { text-decoration:none; color:#0D1117; }
-      .bcard-body h3 a:hover { color:#6366F1; }
-      .bcard-body p { font-size:0.82rem; color:#64748B; line-height:1.6; }
-      /* PUB SECTION */
-      .pub-highlight { background:#fff; border:1px solid #E2E8F0; border-radius:20px; padding:1.8rem 2rem; display:flex; gap:2rem; align-items:center; transition:all 0.3s; }
-      .pub-highlight:hover { border-color:#6366F1; box-shadow:0 8px 30px rgba(99,102,241,0.12); }
-      .pub-icon-wrap { width:70px; height:90px; border-radius:12px; background:linear-gradient(160deg,#6366F1,#818CF8); display:flex; align-items:center; justify-content:center; flex-shrink:0; box-shadow:4px 6px 16px rgba(99,102,241,0.3); }
-      .pub-icon-wrap i { font-size:2rem; color:rgba(255,255,255,0.8); }
-      .pub-content h3 { font-family:'Syne',sans-serif; font-size:1.05rem; font-weight:700; margin-bottom:0.5rem; }
-      .pub-content p { font-size:0.88rem; color:#64748B; line-height:1.65; margin-bottom:1rem; }
-      /* BG DECORATION */
-      .hero-bg { position:relative; overflow:hidden; }
-      .hero-bg::before { content:''; position:absolute; top:-100px; right:-100px; width:500px; height:500px; border-radius:50%; background:radial-gradient(circle,rgba(99,102,241,0.08),transparent 70%); pointer-events:none; }
-      .hero-bg::after { content:''; position:absolute; bottom:-80px; left:-80px; width:350px; height:350px; border-radius:50%; background:radial-gradient(circle,rgba(249,115,22,0.07),transparent 70%); pointer-events:none; }
-      @media(max-width:640px){.hero-cols{flex-direction:column-reverse;gap:2rem;}.hero-text h1{font-size:2.2rem;}.blog-grid{grid-template-columns:1fr;}.pub-highlight{flex-direction:column;}.stats-row{gap:0.7rem;}}
-    </style>
 ---
 
-```{=html}
-<!-- HERO -->
-<div class="hero-bg">
-<div class="hero-wrap fade-up">
-  <div class="hero-badge"><span></span> Data Scientist · Researcher · Educator</div>
-  <div class="hero-cols">
-    <div class="hero-text">
-      <h1>Xin chào,<br>tôi là <span class="gradient-text">[Tên của bạn]</span> 👋</h1>
-      <p>Nhà nghiên cứu và giảng viên chuyên về <strong>thống kê ứng dụng</strong>, <strong>khoa học dữ liệu</strong> và <strong>nghiên cứu người tiêu dùng</strong> trong ngành thực phẩm.</p>
-      <div class="hero-btns">
-        <a href="about.html" class="btn-primary-modern"><i class="fas fa-user"></i> Về tôi</a>
-        <a href="publications.html" class="btn-outline-modern"><i class="fas fa-file-lines"></i> Publications</a>
-        <a href="consulting.html" class="btn-outline-modern"><i class="fas fa-chalkboard-teacher"></i> Consulting</a>
-      </div>
-    </div>
-    <div class="hero-avatar-col">
-      <div class="avatar-ring">
-        <div class="avatar-inner">
-          <i class="fas fa-user"></i>
-          <!-- Thay bằng: <img src="img/avatar.jpg" style="width:100%;height:100%;object-fit:cover;"> -->
-        </div>
-      </div>
-    </div>
-  </div>
+::: {.hero}
 
-  <div class="stats-row fade-up fade-up-2">
-    <div class="stat-box">
-      <span class="stat-num">6+</span>
-      <div class="stat-lbl">Publications</div>
-    </div>
-    <div class="stat-box">
-      <span class="stat-num">4</span>
-      <div class="stat-lbl">Training Courses</div>
-    </div>
-    <div class="stat-box">
-      <span class="stat-num">5+</span>
-      <div class="stat-lbl">Bài blog</div>
-    </div>
-    <div class="stat-box">
-      <span class="stat-num">10+</span>
-      <div class="stat-lbl">Năm kinh nghiệm</div>
-    </div>
-  </div>
-</div>
-</div>
+[Data Scientist · Researcher · Educator]{.badge-pill}
 
-<hr class="divider-modern" style="max-width:900px;margin:0 auto 0;">
+# Xin chào, tôi là [[Lê Minh Tâm]]{.grad} 👋
 
-<!-- BLOG MỚI NHẤT -->
-<div class="sec-wrap fade-up fade-up-2">
-  <div class="sec-top">
-    <div>
-      <div class="section-label">Nội dung mới nhất</div>
-      <h2>Bài viết nổi bật</h2>
-    </div>
-    <a href="blog.html" class="see-all">Xem tất cả <i class="fas fa-arrow-right"></i></a>
-  </div>
-  <div class="blog-grid">
-    <div class="bcard">
-      <div class="bcard-thumb" style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE);">
-        <i class="fab fa-r-project" style="color:#6366F1;"></i>
-      </div>
-      <div class="bcard-body">
-        <span class="pill pill-primary">R</span>
-        <h3><a href="blog.html">Tidymodels: Machine learning trong R</a></h3>
-        <p>Hướng dẫn ML theo phong cách tidyverse từ A đến Z.</p>
-      </div>
-    </div>
-    <div class="bcard">
-      <div class="bcard-thumb" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA);">
-        <i class="fab fa-python" style="color:#F97316;"></i>
-      </div>
-      <div class="bcard-body">
-        <span class="pill pill-accent">Python</span>
-        <h3><a href="blog.html">Python cho người dùng R</a></h3>
-        <p>So sánh tidyverse vs pandas và polars.</p>
-      </div>
-    </div>
-    <div class="bcard">
-      <div class="bcard-thumb" style="background:linear-gradient(135deg,#DCFCE7,#86EFAC);">
-        <i class="fas fa-utensils" style="color:#16A34A;"></i>
-      </div>
-      <div class="bcard-body">
-        <span class="pill pill-green">Data Science</span>
-        <h3><a href="blog.html">Data Science trong ngành thực phẩm</a></h3>
-        <p>Ứng dụng ML vào kiểm soát chất lượng thực phẩm.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Nhà nghiên cứu và giảng viên chuyên về **thống kê ứng dụng**, **khoa học dữ liệu** và **nghiên cứu người tiêu dùng** trong ngành thực phẩm.
 
-<hr class="divider-modern" style="max-width:900px;margin:0 auto;">
+[Về tôi](about.qmd){.btn-primary}
+[Publications](publications.qmd){.btn-outline}
+[Consulting](consulting.qmd){.btn-outline}
 
-<!-- PUBLICATIONS NỔI BẬT -->
-<div class="sec-wrap fade-up fade-up-3" style="padding-top:0;">
-  <div class="section-label">Research</div>
-  <h2 style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.5rem;">Publications nổi bật</h2>
-  <div class="pub-highlight">
-    <div class="pub-icon-wrap"><i class="fas fa-book-open"></i></div>
-    <div class="pub-content">
-      <h3>[Tên sách / bài báo nổi bật nhất của bạn]</h3>
-      <p>Mô tả ngắn về ấn phẩm — nội dung chính, đóng góp khoa học và nơi xuất bản. Thay bằng thông tin thật của bạn.</p>
-      <a href="publications.html" class="btn-primary-modern" style="font-size:0.82rem;padding:0.5rem 1.2rem;">
-        <i class="fas fa-arrow-right"></i> Xem tất cả publications
-      </a>
-    </div>
-  </div>
-</div>
-```
+:::
+
+::: {.stats}
+:::: {.grid}
+::: {.g-col-3}
+::: {.stat}
+[6+]{.num}
+[Publications]{.lbl}
+:::
+:::
+::: {.g-col-3}
+::: {.stat}
+[4]{.num}
+[Training Courses]{.lbl}
+:::
+:::
+::: {.g-col-3}
+::: {.stat}
+[5+]{.num}
+[Bài blog]{.lbl}
+:::
+:::
+::: {.g-col-3}
+::: {.stat}
+[10+]{.num}
+[Năm kinh nghiệm]{.lbl}
+:::
+:::
+::::
+:::
+
+<hr class="divider">
+
+[Nội dung mới nhất]{.label}
+
+## Bài viết nổi bật
+
+::: {.grid}
+::: {.g-col-4}
+::: {.card-soft}
+[📊]{.ico}
+[R]{.tag}
+
+### Tidymodels trong R
+
+Hướng dẫn machine learning theo phong cách tidyverse từ A đến Z.
+
+[Đọc tiếp →](blog.qmd)
+:::
+:::
+::: {.g-col-4}
+::: {.card-soft}
+[🐍]{.ico}
+[Python]{.tag-orange .tag}
+
+### Python cho người dùng R
+
+So sánh cú pháp tidyverse với pandas và polars.
+
+[Đọc tiếp →](blog.qmd)
+:::
+:::
+::: {.g-col-4}
+::: {.card-soft}
+[🍎]{.ico}
+[Data Science]{.tag-green .tag}
+
+### Data Science thực phẩm
+
+Ứng dụng ML vào kiểm soát chất lượng thực phẩm.
+
+[Đọc tiếp →](blog.qmd)
+:::
+:::
+:::
+
+<hr class="divider">
+
+[Research]{.label}
+
+## Publications nổi bật
+
+::: {.card-soft}
+### 📚 [Tên sách / bài báo nổi bật nhất của bạn]
+
+Mô tả ngắn về ấn phẩm — nội dung chính, đóng góp khoa học và nơi xuất bản. Thay bằng thông tin thật của bạn.
+
+[Xem tất cả publications →](publications.qmd){.btn-primary}
+:::
