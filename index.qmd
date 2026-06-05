@@ -6,7 +6,7 @@ title: ""
 
 [Data Scientist · Researcher · Educator]{.badge-pill}
 
-# Hi, I'm [Tam Le]{.grad} 👋
+# Hi, I'm [Tam]{.grad} 👋
 
 Researcher and lecturer specializing in **applied statistics** and **consumer research** in the food industry.
 

@@ -5,16 +5,17 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Tam LE</title>
+<title>Tam Minh LE</title>
 <link>https://tamle-datascience.github.io/blog.html</link>
 <atom:link href="https://tamle-datascience.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Fri, 14 Mar 2025 17:00:00 GMT</lastBuildDate>
 <item>
   <title>Tidymodels: Machine Learning the Tidyverse Way</title>
-  <link>https://tamle-datascience.github.io/posts/tidymodels/index.html</link>
+  <link>https://tamle-datascience.github.io/posts/tidymodels/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -39,13 +40,14 @@
  ]]></description>
   <category>R</category>
   <category>Machine Learning</category>
-  <guid>https://tamle-datascience.github.io/posts/tidymodels/index.html</guid>
+  <guid>https://tamle-datascience.github.io/posts/tidymodels/</guid>
   <pubDate>Fri, 14 Mar 2025 17:00:00 GMT</pubDate>
 </item>
 <item>
   <title>LaTeX from A to Z: Writing Professional Academic Reports</title>
-  <link>https://tamle-datascience.github.io/posts/latex/index.html</link>
+  <link>https://tamle-datascience.github.io/posts/latex/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -61,13 +63,14 @@
 
  ]]></description>
   <category>LaTeX</category>
-  <guid>https://tamle-datascience.github.io/posts/latex/index.html</guid>
+  <guid>https://tamle-datascience.github.io/posts/latex/</guid>
   <pubDate>Sat, 01 Feb 2025 17:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Git for Researchers: Managing Data Analysis Projects</title>
-  <link>https://tamle-datascience.github.io/posts/git/index.html</link>
+  <link>https://tamle-datascience.github.io/posts/git/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -83,13 +86,14 @@
 
  ]]></description>
   <category>Git</category>
-  <guid>https://tamle-datascience.github.io/posts/git/index.html</guid>
+  <guid>https://tamle-datascience.github.io/posts/git/</guid>
   <pubDate>Fri, 17 Jan 2025 17:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Python for R Users: Key Differences to Know</title>
-  <link>https://tamle-datascience.github.io/posts/python/index.html</link>
+  <link>https://tamle-datascience.github.io/posts/python/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -105,13 +109,14 @@
 
  ]]></description>
   <category>Python</category>
-  <guid>https://tamle-datascience.github.io/posts/python/index.html</guid>
+  <guid>https://tamle-datascience.github.io/posts/python/</guid>
   <pubDate>Wed, 04 Dec 2024 17:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Data Science in the Food Industry: Practical Applications</title>
-  <link>https://tamle-datascience.github.io/posts/data-science-food/index.html</link>
+  <link>https://tamle-datascience.github.io/posts/data-science-food/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -127,7 +132,7 @@
 
  ]]></description>
   <category>Data Science</category>
-  <guid>https://tamle-datascience.github.io/posts/data-science-food/index.html</guid>
+  <guid>https://tamle-datascience.github.io/posts/data-science-food/</guid>
   <pubDate>Sat, 09 Nov 2024 17:00:00 GMT</pubDate>
 </item>
 </channel>

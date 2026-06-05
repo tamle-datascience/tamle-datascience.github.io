@@ -58,21 +58,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m Tam Le 👋",
+    "title": "Hi, I’m Tam 👋",
     "section": "",
     "text": "Data Scientist · Researcher · Educator\n\n\nResearcher and lecturer specializing in applied statistics and consumer research in the food industry.\nAbout me Publications Consulting\nLatest content"
   },
   {
     "objectID": "index.html#featured-posts",
     "href": "index.html#featured-posts",
-    "title": "Hi, I’m Tam Le 👋",
+    "title": "Hi, I’m Tam 👋",
     "section": "Featured Posts",
     "text": "Featured Posts\n\n\n\n📊 R\n\nTidymodels in R\nAn end-to-end guide to machine learning the tidyverse way.\nRead more →\n\n\n\n\n\n🐍 Python\n\nPython for R Users\nComparing tidyverse syntax with pandas and polars.\nRead more →\n\n\n\n\n\n🍎 Data Science\n\nData Science in Food\nApplying ML to food quality control.\nRead more →\n\n\n\n\n\nResearch"
   },
   {
     "objectID": "index.html#featured-publications",
     "href": "index.html#featured-publications",
-    "title": "Hi, I’m Tam Le 👋",
+    "title": "Hi, I’m Tam 👋",
     "section": "Featured Publications",
     "text": "Featured Publications\n\n📚 [Your most notable book / paper]\nA short description of the publication — its main content, scientific contribution, and where it was published. Replace this with your real information.\nSee all publications →"
   },
@@ -81,7 +81,7 @@
     "href": "blog.html",
     "title": "Blog Archive",
     "section": "",
-    "text": "Tidymodels: Machine Learning the Tidyverse Way\n\n\n\n\n\n\n\nR\n\n\nMachine Learning\n\n\n\n\nA comprehensive guide to tidymodels — from preprocessing with recipes and model building with parsnip to evaluation with yardstick.\n\n\n\n\n\n\nMar 15, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nLaTeX from A to Z: Writing Professional Academic Reports\n\n\n\n\n\n\n\nLaTeX\n\n\n\n\nA hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX.\n\n\n\n\n\n\nFeb 2, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nGit for Researchers: Managing Data Analysis Projects\n\n\n\n\n\n\n\nGit\n\n\n\n\nAn introduction to Git and GitHub for R/Python projects — essential commands and team workflows.\n\n\n\n\n\n\nJan 18, 2025\n\n\n1 min\n\n\n\n\n\n\n\n\nPython for R Users: Key Differences to Know\n\n\n\n\n\n\n\nPython\n\n\n\n\nA direct comparison of tidyverse syntax with pandas and polars — get up to speed in Python building on your R background.\n\n\n\n\n\n\nDec 5, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\nData Science in the Food Industry: Practical Applications\n\n\n\n\n\n\n\nData Science\n\n\n\n\nHow data science is transforming the food industry — from quality control to consumer behavior analysis.\n\n\n\n\n\n\nNov 10, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Tidymodels: Machine Learning the Tidyverse Way\n\n\n\nR\n\nMachine Learning\n\n\n\nA comprehensive guide to tidymodels — from preprocessing with recipes and model building with parsnip to evaluation with yardstick.\n\n\n\n\n\nMar 15, 2025\n\n1 min\n\n\n\n\n\n\nLaTeX from A to Z: Writing Professional Academic Reports\n\n\n\nLaTeX\n\n\n\nA hands-on LaTeX guide — document structure, math formulas, tables, and citations with BibTeX.\n\n\n\n\n\nFeb 2, 2025\n\n1 min\n\n\n\n\n\n\nGit for Researchers: Managing Data Analysis Projects\n\n\n\nGit\n\n\n\nAn introduction to Git and GitHub for R/Python projects — essential commands and team workflows.\n\n\n\n\n\nJan 18, 2025\n\n1 min\n\n\n\n\n\n\nPython for R Users: Key Differences to Know\n\n\n\nPython\n\n\n\nA direct comparison of tidyverse syntax with pandas and polars — get up to speed in Python building on your R background.\n\n\n\n\n\nDec 5, 2024\n\n1 min\n\n\n\n\n\n\nData Science in the Food Industry: Practical Applications\n\n\n\nData Science\n\n\n\nHow data science is transforming the food industry — from quality control to consumer behavior analysis.\n\n\n\n\n\nNov 10, 2024\n\n1 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

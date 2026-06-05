@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Tam LE"
+  title: "Tam Minh LE"
   favicon: img/avatar.jpg
   # Personal website of tamle-datascience
   # Repo must be named: tamle-datascience.github.io
@@ -37,13 +37,14 @@ website:
         href: https://linkedin.com/in/username
         aria-label: LinkedIn
   page-footer:
-    center: "© 2026 Tâm Minh Lê · Built with [Quarto](https://quarto.org)"
+    center: "© 2025 [Your Name] · Built with [Quarto](https://quarto.org)"
     background: light
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    html-math-method: katex   # avoids the polyfill.io CDN entirely
     toc: false
     page-layout: full
     grid:
